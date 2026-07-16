@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Robots of Saturn" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="3" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -332,17 +332,13 @@
   </entryLinks>
   <sharedRules>
     <rule name="Mechanical Infantry" id="0fa6-4813-6a81-77b5" hidden="false">
-      <description>Infantry in The Robots may use the “Power to Shields!” special rule.
-
-</description>
+      <description>Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</description>
     </rule>
     <rule name="OTA Patching" id="46dd-e171-0775-2d35" hidden="false">
       <description>During the Prep Phase (step 5) you may place up to 5 activation markers of any type among your active Fighters. Then, for each Fighter that received any markers this way, they receive the following benefits (cumulative)
 - 1+ Marker: Heal up to 1 HP from that Fighter.
 - 2+ Markers: That Fighter’s Defense Rank is improved by 1 this round. (lowered eg. 4+ -&gt; 3+) 
-- 3+ Markers: That Fighter gains +1 Evasion this round.
-
-</description>
+- 3+ Markers: That Fighter gains +1 Evasion this round.</description>
     </rule>
   </sharedRules>
 </catalogue>
