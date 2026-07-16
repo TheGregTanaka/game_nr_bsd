@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Robots of Saturn" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="9f33-b99b-ab6a-8af2" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Standard Bot" id="88c7-68bf-3334-830c" hidden="false" type="profile" targetId="1915-a83d-0174-79c7"/>
+        <infoLink name="Blasters" id="43b9-cc31-446f-5bbf" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
+        <infoLink name="Missile Launcher" id="878b-9ca5-3268-5c24" hidden="false" type="profile" targetId="743d-3430-5339-c49f"/>
+        <infoLink name="Robot Fists" id="ae06-0d7f-9c2d-932f" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Heavy Bot" hidden="false" id="16c7-cccb-de9e-eaf4">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="21"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="12"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="5d5b-5f9e-d1a9-b647" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Heavy Bot" id="0570-8c9f-4b7a-57d8" hidden="false" type="profile" targetId="e9f9-94b4-a603-31d1"/>
+        <infoLink name="Blasters" id="56f0-151d-26ab-c444" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
+        <infoLink name="Missile Launcher" id="cde8-9ceb-f0cf-b0d7" hidden="false" type="profile" targetId="743d-3430-5339-c49f"/>
+        <infoLink name="Long-Range Launcher" id="cf27-b488-41f8-70bc" hidden="false" type="profile" targetId="04d7-e748-0d34-4c13"/>
+        <infoLink name="Heavy Robot Fists" id="d576-e084-ca19-ddbb" hidden="false" type="profile" targetId="1121-9085-48c9-8c6b"/>
+        <infoLink name="Doom Claws" id="fb82-4541-d09a-9d30" hidden="false" type="profile" targetId="b144-a0db-6a1d-a0bd"/>
+        <infoLink name="Repair 2" id="e299-8d21-fff3-cb36" hidden="false" type="profile" targetId="7c96-eb83-b5d5-44ff"/>
+        <infoLink name="Repair X" id="d5a5-e56c-13cf-bb00" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Guardian Bot" hidden="false" id="e748-97b4-a601-0733">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="20"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="3a76-39dd-1150-d314" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Guardian Bot" id="0189-6856-f011-6263" hidden="false" type="profile" targetId="4b17-9d29-f56b-4d27"/>
+        <infoLink name="Blasters" id="c647-3689-c7b9-98ee" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
+        <infoLink name="Heavy Robot Fists" id="e066-14cd-cb28-c19f" hidden="false" type="profile" targetId="1121-9085-48c9-8c6b"/>
+        <infoLink name="Dagger Beam" id="484e-0cc4-d091-0379" hidden="false" type="profile" targetId="bd8a-f37c-7cd3-8698"/>
+        <infoLink name="Distraction Field" id="11df-4fcf-911c-a5ed" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
+        <infoLink name="Conspicuous" id="675e-6ac7-0326-dd2d" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
+        <infoLink name="Repair 1" id="6016-28d1-b9ba-ec28" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
+        <infoLink name="Repair X" id="df65-6a11-c2dc-5f33" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Rocket Bot" hidden="false" id="8ce1-a00d-b3cf-cb24">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="16"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="12"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="f289-c86f-a807-2c91" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Rocket Bot" id="d7e4-6ee5-c15a-3a55" hidden="false" type="profile" targetId="93a2-3029-cb46-664e"/>
+        <infoLink name="Super Flares" id="10c5-d3fb-2d73-7f68" hidden="false" type="profile" targetId="f582-6c70-ac74-20cd"/>
+        <infoLink name="Dual Missile Launcher" id="9190-36e4-a875-7e2d" hidden="false" type="profile" targetId="4dbd-70be-2c70-ac6f"/>
+        <infoLink name="Mid-Range Launcher" id="9a91-4fcb-759c-6db4" hidden="false" type="profile" targetId="6c1a-9f1d-84bb-dd6b"/>
+        <infoLink name="Long-Range Launcher" id="ec55-0f17-c24f-eb80" hidden="false" type="profile" targetId="04d7-e748-0d34-4c13"/>
+        <infoLink name="Robot Fists" id="bdc0-862a-8ac9-efae" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
+        <infoLink name="Dagger Beam" id="eac4-4fae-8be3-ce59" hidden="false" type="profile" targetId="bd8a-f37c-7cd3-8698"/>
+        <infoLink name="Improved Shield Generators" id="425e-da70-e0e1-e5ee" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Scout Bot" hidden="false" id="6719-7767-3935-234c">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="aa3f-5f43-43cc-059f" primary="true" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Scout Bot" id="51b5-1a45-06e6-50c2" hidden="false" type="profile" targetId="8dc1-5f9e-9fea-ce72"/>
+        <infoLink name="Blasters" id="9c9c-4488-ba1e-b821" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
+        <infoLink name="Robot Fists" id="7359-0b9a-356c-a129" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
+        <infoLink name="Infantry" id="f872-49f1-728e-d0ef" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Mechanical Infantry" id="7434-61a4-8c48-2b84" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
+        <infoLink name="Fast Claim" id="66fa-ed8e-8827-82cf" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Repair X" id="4230-ff11-0dfb-9bea" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Sock Bot" hidden="false" id="18f6-9220-1e0c-564b">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="5e5a-fdba-3652-63d1" primary="true" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Sock Bot" id="fe74-3e57-a036-d645" hidden="false" type="profile" targetId="f902-c572-3b65-41f0"/>
+        <infoLink name="Flares" id="4384-f2ee-0fec-dd2e" hidden="false" type="profile" targetId="4adc-685f-4daa-5e6b"/>
+        <infoLink name="Super Robot Fists" id="3d7e-a443-554b-e4b9" hidden="false" type="profile" targetId="09b5-ac2e-d4ad-d64e"/>
+        <infoLink name="Gatling Arm" id="521b-cb87-b869-354c" hidden="false" type="profile" targetId="6c36-150c-df38-8373"/>
+        <infoLink name="Infantry" id="e6e9-0bb6-6581-242f" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Mechanical Infantry" id="e6d9-42d1-8c8f-7bb1" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
+        <infoLink name="Fast Claim" id="2719-35ad-d118-df12" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Evasive Maneuvers" id="374b-51fa-9237-12dc" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Machine Gun Bot" hidden="false" id="8bce-8798-3d4c-67f9">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f0d9-1da0-af47-826c" primary="true" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Machine Gun Bot" id="f8d5-59f9-e8d9-c99d" hidden="false" type="profile" targetId="fe90-ce50-c0ac-df01"/>
+        <infoLink name="Assault HMG" id="1d55-4515-faab-d381" hidden="false" type="profile" targetId="9f8a-89c5-2005-d1f5"/>
+        <infoLink name="Light Machine Gun" id="578d-4a1c-b763-d30f" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
+        <infoLink name="Robot Fists" id="d079-50a7-2e83-a66c" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
+        <infoLink name="Dagger Beam" id="4ea6-73be-90f0-47fc" hidden="false" type="profile" targetId="bd8a-f37c-7cd3-8698"/>
+        <infoLink name="Infantry" id="192e-d253-a3db-3085" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Mechanical Infantry" id="0eb4-c30b-7a2f-c3b7" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
+        <infoLink name="Fast Claim" id="4e6f-17c1-430e-d0c1" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Distraction Field" id="ba24-96c0-5cb1-0807" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Mobile Repair Station" hidden="false" id="6a56-61c3-85ea-3680">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="8"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="4aa5-42d5-a566-38b8" primary="true" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Mobile Repair Station" id="346b-f868-2015-2859" hidden="false" type="profile" targetId="7fd3-101d-e4a6-76e5"/>
+        <infoLink name="Mini Flares" id="4550-492f-e528-7c1e" hidden="false" type="profile" targetId="b812-596f-33a7-ea38"/>
+        <infoLink name="Mini Flares" id="3978-0ffb-7731-a80d" hidden="false" type="profile" targetId="baeb-24d1-44f4-6480"/>
+        <infoLink name="Infantry" id="9516-2586-f667-802b" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Mechanical Infantry" id="ef12-c182-9eb9-3ab7" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
+        <infoLink name="Fast Claim" id="8e75-1cbe-b79c-547f" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Repair 3" id="1951-612d-9fcd-2fea" hidden="false" type="profile" targetId="0b42-de75-2e47-5850"/>
+        <infoLink name="Repair X" id="9488-d8f3-f0a3-2444" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+      </infoLinks>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Electro-Vampiric Carcinoids" hidden="false" id="b1fa-4fb0-9ea6-e97a">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="4196-6d45-3c1c-702f" primary="true" name="Infantry"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Electro-Vampiric Carcinoids" id="c144-8393-00de-3651" hidden="false" type="profile" targetId="3a55-5f93-35ba-e4a1"/>
+        <infoLink name="Siphon Spike" id="fa79-d12a-088f-f1b4" hidden="false" type="profile" targetId="f289-d5b6-9da8-dd1e"/>
+        <infoLink name="Infantry" id="ae80-267a-bb2b-158d" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Mechanical Infantry" id="8043-d142-30bb-034c" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
+        <infoLink name="Fast Claim" id="999e-9e50-9ba2-59c0" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Evasive Maneuvers" id="76b7-e9f5-3859-94d0" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+      </infoLinks>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Standard Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="1915-a83d-0174-79c7">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">26</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Heavy Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="e9f9-94b4-a603-31d1">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">33</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">12</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Guardian Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="4b17-9d29-f56b-4d27">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">33</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-6”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Rocket Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="93a2-3029-cb46-664e">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">29</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">12</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-6”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Scout Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="8dc1-5f9e-9fea-ce72">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">20</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-12”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-6</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Sock Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="f902-c572-3b65-41f0">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-9”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Machine Gun Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="fe90-ce50-c0ac-df01">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mobile Repair Station" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="7fd3-101d-e4a6-76e5">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">32mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">9</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-10”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-5</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Electro-Vampiric Carcinoids" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="3a55-5f93-35ba-e4a1">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">25mm x3</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">6 x3 (18)</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (2”-12”)</characteristic>
+        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Mechanical Infantry" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="95be-29ef-1221-fa2c">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">Infantry in The Robots may use the “Power to Shields!” special rule.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Distraction Field" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="db3f-0d66-6751-f7d2">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Friendly Fighters that do not have the Distraction Field ability within 6” of this model gain +1 to their Evasion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Improved Shield Generators" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="7f74-b746-a02a-e864">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter uses the “Power to Shields” special rule, it may spend up to 5 energy.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Electro-Vampiric Carcinoids" hidden="false" id="70c2-a232-b80a-1d7e" targetId="b1fa-4fb0-9ea6-e97a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="62ee-57af-3cbb-f95c" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Guardian Bot" hidden="false" id="2662-808d-9316-6d57" targetId="e748-97b4-a601-0733" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="0306-5952-a712-0b1b" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Heavy Bot" hidden="false" id="298d-038c-b0b2-02e4" targetId="16c7-cccb-de9e-eaf4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="d12b-3485-480d-9789" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Machine Gun Bot" hidden="false" id="519e-439e-18ef-285f" targetId="8bce-8798-3d4c-67f9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="72f9-a094-2e2c-b9cf" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Mobile Repair Station" hidden="false" id="0e50-5318-1dec-b87c" targetId="6a56-61c3-85ea-3680" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="1d12-13f9-07d5-30d6" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Rocket Bot" hidden="false" id="d54a-85fc-9f53-80ec" targetId="8ce1-a00d-b3cf-cb24" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="01eb-a43d-d140-99d9" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Scout Bot" hidden="false" id="0a20-6ab4-c441-3b38" targetId="6719-7767-3935-234c" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="1df7-59cb-6b93-9f97" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Sock Bot" hidden="false" id="ef82-fb4c-c585-7fdd" targetId="18f6-9220-1e0c-564b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="d683-ddd1-4e3f-141b" primary="true" name="Infantry"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Standard Bot" hidden="false" id="3d7a-cf49-0a37-c58c" targetId="f13c-9fb5-0871-2c84" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="d32d-b92e-6883-eeed" primary="true" name="Non-Infantry"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedRules>
+    <rule name="Mechanical Infantry" id="0fa6-4813-6a81-77b5" hidden="false">
+      <description>Infantry in The Robots may use the “Power to Shields!” special rule.
+
+</description>
+    </rule>
+    <rule name="OTA Patching" id="46dd-e171-0775-2d35" hidden="false">
+      <description>During the Prep Phase (step 5) you may place up to 5 activation markers of any type among your active Fighters. Then, for each Fighter that received any markers this way, they receive the following benefits (cumulative)
+- 1+ Marker: Heal up to 1 HP from that Fighter.
+- 2+ Markers: That Fighter’s Defense Rank is improved by 1 this round. (lowered eg. 4+ -&gt; 3+) 
+- 3+ Markers: That Fighter gains +1 Evasion this round.
+
+</description>
+    </rule>
+  </sharedRules>
+</catalogue>
