@@ -331,14 +331,14 @@
     </entryLink>
   </entryLinks>
   <rules>
-    <rule name="Mechanical Infantry" id="0fa6-4813-6a81-77b5" hidden="false">
-      <description>Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</description>
-    </rule>
-    <rule name="OTA Patching" id="46dd-e171-0775-2d35" hidden="false">
+    <rule name="OTA Patching" id="b55d-3104-eaa8-9917" hidden="false">
       <description>During the Prep Phase (step 5) you may place up to 5 activation markers of any type among your active Fighters. Then, for each Fighter that received any markers this way, they receive the following benefits (cumulative)
 - 1+ Marker: Heal up to 1 HP from that Fighter.
 - 2+ Markers: That Fighter’s Defense Rank is improved by 1 this round. (lowered eg. 4+ -&gt; 3+) 
 - 3+ Markers: That Fighter gains +1 Evasion this round.</description>
+    </rule>
+    <rule name="Mechanical Infantry" id="dc42-5f1a-167f-cc82" hidden="false">
+      <description>Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</description>
     </rule>
   </rules>
 </catalogue>
