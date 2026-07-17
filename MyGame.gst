@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="8" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="9" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -8,6 +8,7 @@
     <forceEntry name="Army" hidden="false" id="default-force">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="0"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
         <categoryLink name="Infantry" hidden="false" id="7f3d-a674-b014-c140" targetId="default-category"/>
@@ -1035,6 +1036,9 @@ Includes the following two abilities.
       <alias>Anti-Evade 2</alias>
       <alias>Anti-Evade 3</alias>
       <alias>Anti-Evade 4</alias>
+    </rule>
+    <rule name="Adaptive Pierce" id="f6e2-a9dc-f7a6-8f04" hidden="false">
+      <description>If the defender’s base Defense Rank is lower than this attack’s base Attack Rank, this gains +1 pierce, or +2 pierce if the Defense Rank is 2 or more ranks lower.</description>
     </rule>
   </sharedRules>
 </gameSystem>
