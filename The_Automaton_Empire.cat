@@ -217,7 +217,7 @@
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">20</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
-        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-12”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-6</characteristic>
@@ -228,7 +228,7 @@
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
-        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-9”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
@@ -239,7 +239,7 @@
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
-        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
@@ -250,7 +250,7 @@
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">32mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">9</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
-        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-10”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-5</characteristic>
