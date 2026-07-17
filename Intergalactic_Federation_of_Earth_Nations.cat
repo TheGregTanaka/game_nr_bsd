@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -102,6 +102,7 @@
         <infoLink name="Crushing Stomps" id="d467-b24f-95ad-3e83" hidden="false" type="profile" targetId="e0c4-f964-6e0c-f45a"/>
         <infoLink name="Repair 1" id="e5c1-01e4-fadd-3546" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Conspicuous" id="fd95-22a3-4580-70b7" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
+        <infoLink name="Mini-Bombs" id="374b-2b78-380c-2ee5" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="35dc-2928-8af2-c05c" primary="true" name="Non-Infantry"/>

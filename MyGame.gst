@@ -215,7 +215,7 @@
         <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">E+2</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">2</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
-        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540"/>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack</characteristic>
         <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
       </characteristics>
     </profile>
