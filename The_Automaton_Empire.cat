@@ -190,7 +190,7 @@
         <infoLink name="Mechanical Infantry" id="8043-d142-30bb-034c" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="999e-9e50-9ba2-59c0" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Evasive Maneuvers" id="76b7-e9f5-3859-94d0" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
-        <infoLink name="Limit 3" id="9897-5251-07d6-babe" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
+        <infoLink name="Limit 3" id="e632-4e60-3b8f-85f8" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c6e5-f37f-0025-7e90" includeChildSelections="true"/>

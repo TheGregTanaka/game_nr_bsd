@@ -118,7 +118,7 @@
         <infoLink name="Repair 1" id="e5c1-01e4-fadd-3546" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Conspicuous" id="fd95-22a3-4580-70b7" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Mini-Bombs" id="374b-2b78-380c-2ee5" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
-        <infoLink name="Limit 2" id="9c2b-61c9-ceb6-60ba" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
+        <infoLink name="Limit 2" id="ff06-02fb-cee9-4568" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="35dc-2928-8af2-c05c" primary="true" name="Non-Infantry"/>

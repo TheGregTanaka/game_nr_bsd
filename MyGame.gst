@@ -420,7 +420,7 @@
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">2</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
         <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Anti-Evade 1</characteristic>
-        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If this attack deals damage to a target, deal an additional damage to that target (this is also saved at Pierce 2)</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If this attack deals damage to a target, deal an additional damage to that target (this is also saved at Pierce 2).</characteristic>
       </characteristics>
     </profile>
     <profile name="Bigger Battering Ram" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="a33b-900b-a57e-b7b7">
