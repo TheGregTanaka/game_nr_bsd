@@ -4,7 +4,7 @@
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="11"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="9f33-b99b-ab6a-8af2" primary="true" name="Non-Infantry"/>
@@ -23,7 +23,7 @@
     <selectionEntry type="unit" import="true" name="Heavy Bot" hidden="false" id="16c7-cccb-de9e-eaf4">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="21"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="12"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="15"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="5d5b-5f9e-d1a9-b647" primary="true" name="Non-Infantry"/>
@@ -45,7 +45,7 @@
     <selectionEntry type="unit" import="true" name="Guardian Bot" hidden="false" id="e748-97b4-a601-0733">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="20"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="14"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="3a76-39dd-1150-d314" primary="true" name="Non-Infantry"/>
@@ -112,7 +112,7 @@
     <selectionEntry type="unit" import="true" name="Sock Bot" hidden="false" id="18f6-9220-1e0c-564b">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="11"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="5e5a-fdba-3652-63d1" primary="true" name="Infantry"/>
@@ -134,7 +134,7 @@
     <selectionEntry type="unit" import="true" name="Machine Gun Bot" hidden="false" id="8bce-8798-3d4c-67f9">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="11"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="f0d9-1da0-af47-826c" primary="true" name="Infantry"/>
