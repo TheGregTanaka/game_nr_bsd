@@ -14,6 +14,7 @@
         <infoLink name="Blasters" id="43b9-cc31-446f-5bbf" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
         <infoLink name="Missile Launcher" id="878b-9ca5-3268-5c24" hidden="false" type="profile" targetId="743d-3430-5339-c49f"/>
         <infoLink name="Robot Fists" id="ae06-0d7f-9c2d-932f" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
+        <infoLink name="Mini-Bombs" id="ac42-5c64-af2e-28ed" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Bot" hidden="false" id="16c7-cccb-de9e-eaf4">
