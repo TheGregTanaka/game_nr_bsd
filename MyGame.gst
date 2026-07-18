@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="12" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="13" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -767,6 +767,11 @@
         <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
       </characteristics>
     </profile>
+    <profile name="Stealthy" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="84b7-c604-53f4-0598">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: If this Fighter has not taken any Combat actions this round, it gains +1 Evasion.</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
   <sharedSelectionEntries>
     <selectionEntry type="upgrade" import="true" name="Pulse Rifle" hidden="false" id="36c8-e6f8-4166-dfa2">
@@ -882,7 +887,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Gatling Gannon" hidden="false" id="7192-1f09-663a-4ca9">
       <infoLinks>
-        <infoLink name="Gatling Gannon" id="9c6d-ea6b-eefb-8782" hidden="false" type="profile" targetId="b9ec-d7df-c7cb-acac"/>
+        <infoLink name="Gatling Cannon" id="9c6d-ea6b-eefb-8782" hidden="false" type="profile" targetId="b9ec-d7df-c7cb-acac"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mega-Pulse Rifle" hidden="false" id="1da3-a61c-ae77-5813">
@@ -1048,6 +1053,9 @@ Includes the following two abilities.
     </rule>
     <rule name="Limit 3" id="7d6c-71b3-1b61-a0d4" hidden="false">
       <description>You may not have more than 3 of this profile in your roster.</description>
+    </rule>
+    <rule name="Stealthy" id="c984-487a-4bf1-8c4e" hidden="false">
+      <description>[Passive]: If this Fighter has not taken any Combat actions this round, it gains +1 Evasion.</description>
     </rule>
   </sharedRules>
 </gameSystem>

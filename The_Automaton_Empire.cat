@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -103,6 +103,7 @@
         <infoLink name="Mechanical Infantry" id="7434-61a4-8c48-2b84" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="66fa-ed8e-8827-82cf" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair X" id="4230-ff11-0dfb-9bea" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Stealthy" id="79c0-6a56-cc5c-bab0" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d7ae-0729-63e3-a025" includeChildSelections="true"/>
@@ -191,6 +192,7 @@
         <infoLink name="Fast Claim" id="999e-9e50-9ba2-59c0" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Evasive Maneuvers" id="76b7-e9f5-3859-94d0" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Limit 3" id="e632-4e60-3b8f-85f8" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
+        <infoLink name="Stealthy" id="08e1-876a-ca83-aca3" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c6e5-f37f-0025-7e90" includeChildSelections="true"/>

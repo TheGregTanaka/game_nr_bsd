@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -31,6 +31,7 @@
         <infoLink name="Light Walker" id="3031-09ca-daa3-d0bf" hidden="false" type="profile" targetId="860d-9e34-6cc1-93cd"/>
         <infoLink name="Long-Range Pulse Rifle" id="7b50-d17e-a07a-b86d" hidden="false" type="profile" targetId="d246-4ff8-7370-f05c"/>
         <infoLink name="Light-Walker Stomps" id="aa9e-7ec4-c3c2-3c13" hidden="false" type="profile" targetId="e245-367c-d472-7ef1"/>
+        <infoLink name="Evasive Maneuvers" id="671c-4e81-e83b-4616" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
@@ -91,7 +92,7 @@
         <infoLink name="Speeder" id="8de8-f583-6bc7-9b92" hidden="false" type="profile" targetId="9dac-37b7-140d-3f69"/>
         <infoLink name="Light Machine Gun" id="3ef3-f8c1-1309-4da4" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
         <infoLink name="Energy Disruption" id="5ba7-e614-520d-1a79" hidden="false" type="profile" targetId="1b82-b7e6-2462-3f3f"/>
-        <infoLink name="Evasive Maneuvers" id="559e-e8de-1c34-ece5" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+        <infoLink name="Stealthy" id="8c45-7274-ffd6-ced1" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
@@ -111,7 +112,7 @@
       </costs>
       <infoLinks>
         <infoLink name="The Behemoth" id="73b7-a70e-ecdb-15a5" hidden="false" type="profile" targetId="dc57-0a8a-07a6-c639"/>
-        <infoLink name="Gatling Gannon" id="3524-8b44-4937-6d88" hidden="false" type="profile" targetId="b9ec-d7df-c7cb-acac"/>
+        <infoLink name="Gatling Cannon" id="3524-8b44-4937-6d88" hidden="false" type="profile" targetId="b9ec-d7df-c7cb-acac"/>
         <infoLink name="Mega-Pulse Rifle" id="0673-59d0-f86a-aa52" hidden="false" type="profile" targetId="db34-c9c0-843a-5b94"/>
         <infoLink name="Scattershot" id="ef23-7343-022e-8332" hidden="false" type="profile" targetId="c9df-1fe4-6aba-657b"/>
         <infoLink name="Crushing Stomps" id="d467-b24f-95ad-3e83" hidden="false" type="profile" targetId="e0c4-f964-6e0c-f45a"/>
