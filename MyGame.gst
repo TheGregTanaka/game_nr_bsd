@@ -567,7 +567,7 @@
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
         <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Anti-Evade 1</characteristic>
-        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">When you spend energy for this attack&apos;s cost, you may spend 1 additional energy. If you do, this attack gains +1 pierce.</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">When you spend energy for this attack&apos;s cost, you may spend 1 additional energy. If you do, this attack gains +2 pierce.</characteristic>
       </characteristics>
     </profile>
     <profile name="Repair 3" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="0b42-de75-2e47-5850">
