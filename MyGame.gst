@@ -1040,11 +1040,14 @@ Includes the following two abilities.
     <rule name="Adaptive Pierce" id="f6e2-a9dc-f7a6-8f04" hidden="false">
       <description>If the defender’s base Defense Rank is lower than this attack’s base Attack Rank, this gains +1 pierce, or +2 pierce if the Defense Rank is 2 or more ranks lower.</description>
     </rule>
-    <rule name="Limit X" id="7c4e-9667-b7cd-f6bf" hidden="false">
-      <description>You may not have more than X of this profile in your roster.</description>
-      <alias>Limit 1</alias>
-      <alias>Limit 2</alias>
-      <alias>Limit 3</alias>
+    <rule name="Limit 1" id="7c4e-9667-b7cd-f6bf" hidden="false">
+      <description>You may not have more than 1 of this profile in your roster.</description>
+    </rule>
+    <rule name="Limit 2" id="6b01-e6de-5a72-80a1" hidden="false">
+      <description>You may not have more than 2 of this profile in your roster.</description>
+    </rule>
+    <rule name="Limit 3" id="7d6c-71b3-1b61-a0d4" hidden="false">
+      <description>You may not have more than 3 of this profile in your roster.</description>
     </rule>
   </sharedRules>
 </gameSystem>

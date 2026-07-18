@@ -105,7 +105,7 @@
         <infoLink name="Conspicuous" id="a8de-9193-3ca5-0476" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Spite Capacitors" id="38e4-0f67-9bd8-0dbc" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Xenotech Berserker" id="a698-ba00-c7c4-7147" hidden="false" type="profile" targetId="52c8-a68f-b228-51f2"/>
-        <infoLink name="Limit 2" id="9e27-7b6b-b818-6378" hidden="false" type="rule" targetId="7c4e-9667-b7cd-f6bf"/>
+        <infoLink name="Limit 2" id="9e27-7b6b-b818-6378" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="035a-ebd1-5674-76b7" includeChildSelections="true"/>
@@ -189,7 +189,7 @@
         <infoLink name="Infantry" id="7da6-aaf7-b7e3-ae4e" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
         <infoLink name="Fast Claim" id="729d-2222-7f61-9de7" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Curse" id="761a-1632-537f-3285" hidden="false" type="profile" targetId="2bb1-06f3-2bf7-ce57"/>
-        <infoLink name="Limit 3" id="188d-cd97-9b80-192b" hidden="false" type="rule" targetId="7c4e-9667-b7cd-f6bf"/>
+        <infoLink name="Limit 3" id="188d-cd97-9b80-192b" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0e8c-e2a1-825d-f7e3" includeChildSelections="true"/>
