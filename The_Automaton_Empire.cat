@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="4" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="5" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="9f33-b99b-ab6a-8af2" primary="true" name="Non-Infantry"/>
@@ -52,6 +52,7 @@
         <infoLink name="Conspicuous" id="675e-6ac7-0326-dd2d" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Repair 1" id="6016-28d1-b9ba-ec28" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="df65-6a11-c2dc-5f33" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Mini-Bombs" id="1924-9988-716c-9401" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
       </infoLinks>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Rocket Bot" hidden="false" id="8ce1-a00d-b3cf-cb24">
@@ -93,7 +94,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sock Bot" hidden="false" id="18f6-9220-1e0c-564b">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
@@ -112,7 +113,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Machine Gun Bot" hidden="false" id="8bce-8798-3d4c-67f9">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
@@ -132,8 +133,8 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mobile Repair Station" hidden="false" id="6a56-61c3-85ea-3680">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="8"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="4aa5-42d5-a566-38b8" primary="true" name="Infantry"/>
@@ -182,7 +183,7 @@
     <profile name="Heavy Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="e9f9-94b4-a603-31d1">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">33</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">31</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">12</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>

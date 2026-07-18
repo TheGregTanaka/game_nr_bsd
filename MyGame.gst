@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="9" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="10" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -583,7 +583,7 @@
         <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">E</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
-        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Anti-Evade 1, Adaptive Pierce</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Anti-Evade 1, Adaptive Pierce</characteristic>
         <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
       </characteristics>
     </profile>
