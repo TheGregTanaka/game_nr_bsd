@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="10" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="12" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -243,7 +243,7 @@
         <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
       </characteristics>
     </profile>
-    <profile name="Gatling Gannon" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="b9ec-d7df-c7cb-acac">
+    <profile name="Gatling Cannon" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="b9ec-d7df-c7cb-acac">
       <characteristics>
         <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">14&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
@@ -368,7 +368,7 @@
         <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">15.7&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">6+</characteristic>
         <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">2-4</characteristic>
-        <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">E+2</characteristic>
+        <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">E+1</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">2</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">E</characteristic>
         <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Anti-Evade 1</characteristic>
@@ -1039,6 +1039,12 @@ Includes the following two abilities.
     </rule>
     <rule name="Adaptive Pierce" id="f6e2-a9dc-f7a6-8f04" hidden="false">
       <description>If the defender’s base Defense Rank is lower than this attack’s base Attack Rank, this gains +1 pierce, or +2 pierce if the Defense Rank is 2 or more ranks lower.</description>
+    </rule>
+    <rule name="Limit X" id="7c4e-9667-b7cd-f6bf" hidden="false">
+      <description>You may not have more than X of this profile in your roster.</description>
+      <alias>Limit 1</alias>
+      <alias>Limit 2</alias>
+      <alias>Limit 3</alias>
     </rule>
   </sharedRules>
 </gameSystem>

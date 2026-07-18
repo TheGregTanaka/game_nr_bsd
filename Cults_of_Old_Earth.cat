@@ -20,6 +20,9 @@
         <infoLink name="Repair 1" id="7f4e-2a89-6d13-b0c5" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="9c05-1f68-3e2a-7db4" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="29db-6e6f-0e14-5d0e" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Medium Warsuit" hidden="false" id="cbe8-5b3e-a949-a2aa">
       <costs>
@@ -38,6 +41,9 @@
         <infoLink name="Repair 1" id="d360-8a4f-1c9e-6b72" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="4e8b-af61-2d0c-953a" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="95d0-81bf-93e3-f6cb" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Cruiser" hidden="false" id="fcb6-76ce-fd88-a0d1">
       <costs>
@@ -56,6 +62,9 @@
         <infoLink name="Spite Capacitors" id="47fe-b7a6-a1e8-5892" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="ab96-7e7d-3ddf-3fb6" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="b977-6f10-f688-4f2e" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Light-Armoured Transport" hidden="false" id="e647-80e1-2abb-2587">
       <costs>
@@ -74,6 +83,9 @@
         <infoLink name="Spite Capacitors" id="dd3d-8a1c-efb8-ec3c" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="aef8-dbb8-5a04-3749" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="51f1-a7e7-8736-d6aa" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Xenotech Berserker" hidden="false" id="b429-e8c7-80cb-1caa">
       <costs>
@@ -93,7 +105,11 @@
         <infoLink name="Conspicuous" id="a8de-9193-3ca5-0476" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Spite Capacitors" id="38e4-0f67-9bd8-0dbc" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Xenotech Berserker" id="a698-ba00-c7c4-7147" hidden="false" type="profile" targetId="52c8-a68f-b228-51f2"/>
+        <infoLink name="Limit 2" id="9e27-7b6b-b818-6378" hidden="false" type="rule" targetId="7c4e-9667-b7cd-f6bf"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="035a-ebd1-5674-76b7" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Zapp Truck" hidden="false" id="7823-f029-0b67-d700">
       <costs>
@@ -113,6 +129,9 @@
         <infoLink name="Spite Capacitors" id="8ede-c109-0e45-5e7c" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="a95d-8932-4f5c-fd51" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="5795-5cf0-dda2-ecbc" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Old Earth Militia" hidden="false" id="12b8-63d7-848e-06c3">
       <costs>
@@ -131,6 +150,9 @@
         <infoLink name="Repair 1" id="9f46-eb05-a74b-494c" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="c131-5bf0-b1c6-70ef" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="bd75-172e-1b06-9294" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Martian Guerrillas" hidden="false" id="cab6-3758-38d4-705f">
       <costs>
@@ -148,6 +170,9 @@
         <infoLink name="Fast Claim" id="ecd0-6527-934a-11e4" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Evasive Maneuvers" id="88d7-b02c-8129-6d40" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="5a71-744f-c695-7930" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Cultists" hidden="false" id="e1b0-7b80-47a1-2501">
       <costs>
@@ -164,7 +189,11 @@
         <infoLink name="Infantry" id="7da6-aaf7-b7e3-ae4e" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
         <infoLink name="Fast Claim" id="729d-2222-7f61-9de7" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Curse" id="761a-1632-537f-3285" hidden="false" type="profile" targetId="2bb1-06f3-2bf7-ce57"/>
+        <infoLink name="Limit 3" id="188d-cd97-9b80-192b" hidden="false" type="rule" targetId="7c4e-9667-b7cd-f6bf"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0e8c-e2a1-825d-f7e3" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>

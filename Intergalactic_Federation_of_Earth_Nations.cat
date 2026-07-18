@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="6" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -19,6 +19,9 @@
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a75c-fb37-674d-5a52" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Light Walker" hidden="false" id="62fe-ea3b-7389-aec2">
       <categoryLinks>
@@ -33,6 +36,9 @@
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
       </costs>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="0f53-8f7b-dea8-903a" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Walker" hidden="false" id="2eb7-ad92-8d6e-0527">
       <infoLinks>
@@ -56,6 +62,9 @@
           </characteristics>
         </profile>
       </profiles>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d8e0-0336-1a5b-49e1" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Destructor-Class Walker" hidden="false" id="d38c-72c0-296a-97a2">
       <infoLinks>
@@ -73,6 +82,9 @@
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="ecda-566a-f2f0-7410" primary="true" name="Non-Infantry"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="484a-b463-6909-9c9d" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Speeder" hidden="false" id="a682-8229-f4bf-353f">
       <infoLinks>
@@ -88,6 +100,9 @@
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="0105-094f-6527-de9a" primary="true" name="Non-Infantry"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="196c-ebcf-d0fb-ef01" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="The Behemoth" hidden="false" id="1dcd-5335-3267-755b">
       <costs>
@@ -103,10 +118,14 @@
         <infoLink name="Repair 1" id="e5c1-01e4-fadd-3546" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Conspicuous" id="fd95-22a3-4580-70b7" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Mini-Bombs" id="374b-2b78-380c-2ee5" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Limit 2" id="9c2b-61c9-ceb6-60ba" hidden="false" type="rule" targetId="7c4e-9667-b7cd-f6bf"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="35dc-2928-8af2-c05c" primary="true" name="Non-Infantry"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="8188-2333-1033-b2fd" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="IFEN Foot Soldiers" hidden="false" id="ad92-e022-ab72-417a">
       <costs>
@@ -124,6 +143,9 @@
       <categoryLinks>
         <categoryLink targetId="default-category" id="355e-7a71-41ca-b684" primary="true" name="Infantry"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="1c0b-4260-967b-813d" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Engineering Team" hidden="false" id="971d-4c4c-9fad-91c7">
       <costs>
@@ -141,6 +163,9 @@
         <infoLink name="Repair 3" id="96a4-33df-d424-4fd7" hidden="false" type="profile" targetId="0b42-de75-2e47-5850"/>
         <infoLink name="Repair X" id="fb04-4a4f-d26a-f44a" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
       </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="fd09-601c-2638-3118" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Armored Transport" hidden="false" id="2bf6-ee3f-8b15-e54d">
       <infoLinks>
@@ -158,6 +183,9 @@
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="dfcd-92ab-1d4c-e921" primary="true" name="Non-Infantry"/>
       </categoryLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="2885-51c5-7238-ed9b" includeChildSelections="true"/>
+      </constraints>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedProfiles>
@@ -220,7 +248,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">100mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">41</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">16</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">17</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">2+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">1&quot; (2”-10”)</characteristic>
