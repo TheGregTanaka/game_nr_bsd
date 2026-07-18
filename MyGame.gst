@@ -40,7 +40,7 @@
         <characteristicType name="Roll" id="9a69-7a7b-f4ef-2f54"/>
         <characteristicType name="Pierce" id="0bd9-2800-9c43-74f0"/>
         <characteristicType name="Damage" id="6d46-9a3d-b123-1b78"/>
-        <characteristicType name="Keywords" id="a96e-7ab8-ecf7-c540" kind="annotation"/>
+        <characteristicType name="Keywords" id="a96e-7ab8-ecf7-c540" kind="longText"/>
         <characteristicType name="Special" id="5230-acd0-bcf8-76a8" kind="longText"/>
       </characteristicTypes>
     </profileType>
@@ -57,7 +57,7 @@
         <characteristicType name="Roll" id="3f1c-f37d-da24-5cb5"/>
         <characteristicType name="Pierce" id="c64b-0aa6-2366-9f01"/>
         <characteristicType name="Damage" id="0238-6a5f-b1d1-aeee"/>
-        <characteristicType name="Keywords" id="d907-aec7-3314-db1c"/>
+        <characteristicType name="Keywords" id="d907-aec7-3314-db1c" kind="longText"/>
         <characteristicType name="Special" id="3f92-fbae-a46e-e814" kind="longText"/>
       </characteristicTypes>
     </profileType>
