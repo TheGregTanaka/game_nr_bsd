@@ -83,7 +83,7 @@
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="0105-094f-6527-de9a" primary="true" name="Non-Infantry"/>

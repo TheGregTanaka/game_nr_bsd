@@ -40,7 +40,7 @@
         <characteristicType name="Roll" id="9a69-7a7b-f4ef-2f54"/>
         <characteristicType name="Pierce" id="0bd9-2800-9c43-74f0"/>
         <characteristicType name="Damage" id="6d46-9a3d-b123-1b78"/>
-        <characteristicType name="Keywords" id="a96e-7ab8-ecf7-c540"/>
+        <characteristicType name="Keywords" id="a96e-7ab8-ecf7-c540" kind="annotation"/>
         <characteristicType name="Special" id="5230-acd0-bcf8-76a8" kind="longText"/>
       </characteristicTypes>
     </profileType>

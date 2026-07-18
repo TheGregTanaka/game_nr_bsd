@@ -3,7 +3,7 @@
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
       </costs>
       <categoryLinks>
@@ -38,7 +38,7 @@
     <selectionEntry type="unit" import="true" name="Guardian Bot" hidden="false" id="e748-97b4-a601-0733">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="20"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="3a76-39dd-1150-d314" primary="true" name="Non-Infantry"/>
@@ -76,7 +76,7 @@
     <selectionEntry type="unit" import="true" name="Scout Bot" hidden="false" id="6719-7767-3935-234c">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="aa3f-5f43-43cc-059f" primary="true" name="Infantry"/>
@@ -94,7 +94,7 @@
     <selectionEntry type="unit" import="true" name="Sock Bot" hidden="false" id="18f6-9220-1e0c-564b">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="5e5a-fdba-3652-63d1" primary="true" name="Infantry"/>
@@ -113,7 +113,7 @@
     <selectionEntry type="unit" import="true" name="Machine Gun Bot" hidden="false" id="8bce-8798-3d4c-67f9">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="f0d9-1da0-af47-826c" primary="true" name="Infantry"/>
@@ -259,7 +259,7 @@
     <profile name="Electro-Vampiric Carcinoids" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="3a55-5f93-35ba-e4a1">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">25mm x3</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">6 x3 (18)</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">5 x3 (15)</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
