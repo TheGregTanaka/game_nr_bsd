@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="9" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="10" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -40,6 +40,13 @@
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="0f53-8f7b-dea8-903a" includeChildSelections="true"/>
       </constraints>
+      <profiles>
+        <profile name="Specialist" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="cf48-9228-21f5-f68d">
+          <characteristics>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Cost 2]: Before resolving an attack, spend 2 energy. This attack gains Anti-Evade 1, and you may add one d10 to your hit roll. Remove one result before resolving damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Walker" hidden="false" id="2eb7-ad92-8d6e-0527">
       <infoLinks>
@@ -204,7 +211,7 @@
     <profile name="Light Walker" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="860d-9e34-6cc1-93cd">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">20</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">19</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
