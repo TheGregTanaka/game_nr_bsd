@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="9" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -107,7 +107,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="The Behemoth" hidden="false" id="1dcd-5335-3267-755b">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="24"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="25"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="16"/>
       </costs>
       <infoLinks>

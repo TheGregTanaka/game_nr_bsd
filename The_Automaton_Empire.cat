@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -149,10 +149,18 @@
         <infoLink name="Mechanical Infantry" id="0eb4-c30b-7a2f-c3b7" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="4e6f-17c1-430e-d0c1" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Distraction Field" id="ba24-96c0-5cb1-0807" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
+        <infoLink name="Stealthy" id="0fdd-5930-9344-33b3" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="dd21-2446-e835-f559" includeChildSelections="true"/>
       </constraints>
+      <profiles>
+        <profile name="Noisey" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="954c-3f0e-011c-8a9f">
+          <characteristics>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">If this Fighter has any Combat activation markers, it gains the Distraction Field ability. (It does not have that ability otherwise.)</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Mobile Repair Station" hidden="false" id="6a56-61c3-85ea-3680">
       <costs>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="13" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="14" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -1055,7 +1055,7 @@ Includes the following two abilities.
       <description>You may not have more than 3 of this profile in your roster.</description>
     </rule>
     <rule name="Stealthy" id="c984-487a-4bf1-8c4e" hidden="false">
-      <description>[Passive]: If this Fighter has not taken any Combat actions this round, it gains +1 Evasion.</description>
+      <description>[Passive]: If this Fighter has no Combat activation markers, it gains +1 Evasion.</description>
     </rule>
   </sharedRules>
 </gameSystem>
