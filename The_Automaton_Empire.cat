@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -16,6 +16,8 @@
         <infoLink name="Robot Fists" id="ae06-0d7f-9c2d-932f" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
         <infoLink name="Mini-Bombs" id="ac42-5c64-af2e-28ed" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
         <infoLink name="Improved Shield Generators" id="fc48-cda3-51f4-5a4f" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
+        <infoLink name="Power to Shields!" id="9a53-295d-edd9-96ab" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="e045-9a33-9356-7ce9" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="97c2-a948-6079-9083" includeChildSelections="true"/>
@@ -39,6 +41,8 @@
         <infoLink name="Repair 2" id="e299-8d21-fff3-cb36" hidden="false" type="profile" targetId="7c96-eb83-b5d5-44ff"/>
         <infoLink name="Repair X" id="d5a5-e56c-13cf-bb00" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Improved Shield Generators" id="8aee-948c-3eaf-00e2" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
+        <infoLink name="Power to Shields!" id="dc11-f5a9-d7ee-d40d" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="a101-be52-440a-b3cc" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d983-f4c8-9673-eafb" includeChildSelections="true"/>
@@ -63,6 +67,8 @@
         <infoLink name="Repair X" id="df65-6a11-c2dc-5f33" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Mini-Bombs" id="1924-9988-716c-9401" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
         <infoLink name="Improved Shield Generators" id="4ab3-1082-d834-8a0a" hidden="false" type="rule" targetId="5aed-f638-1576-1cd6"/>
+        <infoLink name="Power to Shields!" id="da3a-78d1-bdb1-81a6" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="e9c4-ede4-f74b-0187" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a4e2-f431-3764-646b" includeChildSelections="true"/>
@@ -85,6 +91,8 @@
         <infoLink name="Robot Fists" id="bdc0-862a-8ac9-efae" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
         <infoLink name="Dagger Beam" id="eac4-4fae-8be3-ce59" hidden="false" type="profile" targetId="bd8a-f37c-7cd3-8698"/>
         <infoLink name="Improved Shield Generators" id="425e-da70-e0e1-e5ee" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
+        <infoLink name="Power to Shields!" id="b380-3be8-4293-8507" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="7eb0-d248-1338-3b7c" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="e2aa-9995-d879-d27d" includeChildSelections="true"/>
@@ -107,6 +115,7 @@
         <infoLink name="Fast Claim" id="66fa-ed8e-8827-82cf" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair X" id="4230-ff11-0dfb-9bea" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Stealthy" id="79c0-6a56-cc5c-bab0" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Power to Shields!" id="183e-3f3f-a97d-ef44" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d7ae-0729-63e3-a025" includeChildSelections="true"/>
@@ -129,6 +138,7 @@
         <infoLink name="Mechanical Infantry" id="e6d9-42d1-8c8f-7bb1" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="2719-35ad-d118-df12" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Evasive Maneuvers" id="374b-51fa-9237-12dc" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+        <infoLink name="Power to Shields!" id="4ad5-f2ec-fee0-e0db" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a209-3f63-7442-d505" includeChildSelections="true"/>
@@ -153,6 +163,7 @@
         <infoLink name="Fast Claim" id="4e6f-17c1-430e-d0c1" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Distraction Field" id="ba24-96c0-5cb1-0807" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
         <infoLink name="Stealthy" id="0fdd-5930-9344-33b3" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Power to Shields!" id="baa4-d0a5-363b-de33" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="dd21-2446-e835-f559" includeChildSelections="true"/>
@@ -182,6 +193,7 @@
         <infoLink name="Fast Claim" id="8e75-1cbe-b79c-547f" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair X" id="9488-d8f3-f0a3-2444" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Repair 4" id="f1f1-52f4-c4fb-2722" hidden="false" type="profile" targetId="cec4-741c-9a7c-645f"/>
+        <infoLink name="Power to Shields!" id="fd8b-2161-9ba9-b91d" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="db25-cfe9-0202-9b6d" includeChildSelections="true"/>
@@ -204,6 +216,7 @@
         <infoLink name="Evasive Maneuvers" id="76b7-e9f5-3859-94d0" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Limit 3" id="e632-4e60-3b8f-85f8" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
         <infoLink name="Stealthy" id="08e1-876a-ca83-aca3" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Power to Shields!" id="3422-679a-200f-f36b" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="c6e5-f37f-0025-7e90" includeChildSelections="true"/>

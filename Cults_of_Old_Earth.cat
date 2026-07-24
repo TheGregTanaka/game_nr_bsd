@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="9" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Light Warsuit" hidden="false" id="5bc9-d808-1cc3-ed1e">
       <costs>
@@ -19,6 +19,8 @@
         <infoLink name="Fast Claim" id="e825-3b6a-9d17-4fc0" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair 1" id="7f4e-2a89-6d13-b0c5" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="9c05-1f68-3e2a-7db4" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Power to Shields!" id="5b72-f2eb-43c3-fb9e" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="adc5-6f04-f391-6902" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="29db-6e6f-0e14-5d0e" includeChildSelections="true"/>
@@ -40,6 +42,8 @@
         <infoLink name="Spite Capacitors" id="2ee9-8eb2-c333-be27" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Repair 1" id="d360-8a4f-1c9e-6b72" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="4e8b-af61-2d0c-953a" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Power to Shields!" id="53ca-73d8-3644-74c3" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="d8eb-4c8b-74b3-ecb1" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="95d0-81bf-93e3-f6cb" includeChildSelections="true"/>
@@ -61,6 +65,8 @@
         <infoLink name="Transport 6" id="3b61-b1fc-6513-90bd" hidden="false" type="profile" targetId="a530-1235-72e5-78ac"/>
         <infoLink name="Spite Capacitors" id="47fe-b7a6-a1e8-5892" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="ab96-7e7d-3ddf-3fb6" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
+        <infoLink name="Power to Shields!" id="4e31-9e70-a0cd-58c7" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="85dd-8e15-89a0-7aad" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="b977-6f10-f688-4f2e" includeChildSelections="true"/>
@@ -82,6 +88,8 @@
         <infoLink name="Transport 9" id="7870-8fff-aa65-d835" hidden="false" type="profile" targetId="9400-6e81-94c9-e5cb"/>
         <infoLink name="Spite Capacitors" id="dd3d-8a1c-efb8-ec3c" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="aef8-dbb8-5a04-3749" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
+        <infoLink name="Digging In" id="efed-c84b-579d-4602" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Power to Shields!" id="34b9-a9ac-19b6-530d" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="51f1-a7e7-8736-d6aa" includeChildSelections="true"/>
@@ -106,6 +114,8 @@
         <infoLink name="Spite Capacitors" id="38e4-0f67-9bd8-0dbc" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Xenotech Berserker" id="a698-ba00-c7c4-7147" hidden="false" type="profile" targetId="52c8-a68f-b228-51f2"/>
         <infoLink name="Limit 2" id="54a1-7567-6794-d238" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
+        <infoLink name="Power to Shields!" id="7b9a-6406-cc57-8fe6" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="f528-150c-e43a-3729" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="035a-ebd1-5674-76b7" includeChildSelections="true"/>
@@ -128,6 +138,8 @@
         <infoLink name="Transport 6" id="471d-5eae-d28e-03eb" hidden="false" type="profile" targetId="a530-1235-72e5-78ac"/>
         <infoLink name="Spite Capacitors" id="8ede-c109-0e45-5e7c" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Transport X" id="a95d-8932-4f5c-fd51" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
+        <infoLink name="Power to Shields!" id="ca6b-ed0d-8cab-771c" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="1684-3fcc-a604-3985" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="5795-5cf0-dda2-ecbc" includeChildSelections="true"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -11,6 +11,8 @@
         <infoLink name="Mini-Bombs" id="8e4a-1c9b-6f2d-3a70" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
         <infoLink name="Evasive Maneuvers" id="2ca9-7377-9689-6ab5" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Fast Claim" id="1943-9a3c-d177-7c87" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Power to Shields!" id="a81f-cee2-8d32-4663" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="f1e4-01e6-f8b1-2405" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="1c5d-bcc3-1030-2ae9" primary="true" name="Non-Infantry"/>
@@ -32,6 +34,8 @@
         <infoLink name="Long-Range Pulse Rifle" id="7b50-d17e-a07a-b86d" hidden="false" type="profile" targetId="d246-4ff8-7370-f05c"/>
         <infoLink name="Light-Walker Stomps" id="aa9e-7ec4-c3c2-3c13" hidden="false" type="profile" targetId="e245-367c-d472-7ef1"/>
         <infoLink name="Evasive Maneuvers" id="671c-4e81-e83b-4616" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+        <infoLink name="Power to Shields!" id="fe21-2c39-1f61-6985" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="b0cd-1350-3798-58a9" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
@@ -55,6 +59,8 @@
         <infoLink name="Heavy Machine Gun" id="3bb1-2969-6844-c374" hidden="false" type="profile" targetId="6c3e-9a79-e437-c70f"/>
         <infoLink name="Energy Bayonette" id="e2dd-d713-7dc3-d7c3" hidden="false" type="profile" targetId="cbf1-3f35-23c2-05ed"/>
         <infoLink name="Energy Disruption" id="128c-919b-d6c6-bce4" hidden="false" type="profile" targetId="1b82-b7e6-2462-3f3f"/>
+        <infoLink name="Digging In" id="204c-0d4d-962b-8ac4" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Power to Shields!" id="4a55-b629-b6a5-90a0" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="c039-1d32-3259-b415" primary="true" name="Non-Infantry"/>
@@ -82,6 +88,8 @@
         <infoLink name="Energy Bayonette" id="a899-d467-2e1b-2fa8" hidden="false" type="profile" targetId="cbf1-3f35-23c2-05ed"/>
         <infoLink name="Walker Stomps" id="f7c5-3c6d-7e19-b16b" hidden="false" type="profile" targetId="b5a2-5479-4c7a-890b"/>
         <infoLink name="Mini-Bombs" id="7b1f-4d82-0a3c-9e56" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Power to Shields!" id="58b9-7a30-2ca3-c908" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="3f79-255c-2a9a-ffe5" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="15"/>
@@ -100,6 +108,8 @@
         <infoLink name="Light Machine Gun" id="3ef3-f8c1-1309-4da4" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
         <infoLink name="Energy Disruption" id="5ba7-e614-520d-1a79" hidden="false" type="profile" targetId="1b82-b7e6-2462-3f3f"/>
         <infoLink name="Stealthy" id="8c45-7274-ffd6-ced1" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Power to Shields!" id="0899-61bc-6a7f-cf13" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="4be4-b2bf-b085-da26" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
@@ -127,6 +137,8 @@
         <infoLink name="Conspicuous" id="fd95-22a3-4580-70b7" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Mini-Bombs" id="374b-2b78-380c-2ee5" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
         <infoLink name="Limit 2" id="ff06-02fb-cee9-4568" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
+        <infoLink name="Power to Shields!" id="40a8-3abf-ef27-1fed" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="5981-acd9-4f51-7410" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="35dc-2928-8af2-c05c" primary="true" name="Non-Infantry"/>
@@ -183,6 +195,8 @@
         <infoLink name="Transport X" id="d1e0-a1ee-0b7b-1026" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
         <infoLink name="Transport 8" id="a1f7-341f-cc36-ef3b" hidden="false" type="profile" targetId="04f0-04ad-69b7-ea55"/>
         <infoLink name="Evasive Maneuvers" id="14f9-a6b2-ed36-83f6" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+        <infoLink name="Power to Shields!" id="7ae3-892a-59a4-09a9" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="5898-f8f1-aee2-46ce" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
       </infoLinks>
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="10"/>
