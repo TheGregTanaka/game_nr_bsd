@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -15,6 +15,7 @@
         <infoLink name="Missile Launcher" id="878b-9ca5-3268-5c24" hidden="false" type="profile" targetId="743d-3430-5339-c49f"/>
         <infoLink name="Robot Fists" id="ae06-0d7f-9c2d-932f" hidden="false" type="profile" targetId="2e5a-7341-ccd1-ecdc"/>
         <infoLink name="Mini-Bombs" id="ac42-5c64-af2e-28ed" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Improved Shield Generators" id="fc48-cda3-51f4-5a4f" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="97c2-a948-6079-9083" includeChildSelections="true"/>
@@ -37,6 +38,7 @@
         <infoLink name="Doom Claws" id="fb82-4541-d09a-9d30" hidden="false" type="profile" targetId="b144-a0db-6a1d-a0bd"/>
         <infoLink name="Repair 2" id="e299-8d21-fff3-cb36" hidden="false" type="profile" targetId="7c96-eb83-b5d5-44ff"/>
         <infoLink name="Repair X" id="d5a5-e56c-13cf-bb00" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Improved Shield Generators" id="8aee-948c-3eaf-00e2" hidden="false" type="profile" targetId="7f74-b746-a02a-e864"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d983-f4c8-9673-eafb" includeChildSelections="true"/>
@@ -60,6 +62,7 @@
         <infoLink name="Repair 1" id="6016-28d1-b9ba-ec28" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="df65-6a11-c2dc-5f33" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Mini-Bombs" id="1924-9988-716c-9401" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Improved Shield Generators" id="4ab3-1082-d834-8a0a" hidden="false" type="rule" targetId="5aed-f638-1576-1cd6"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a4e2-f431-3764-646b" includeChildSelections="true"/>
@@ -177,8 +180,8 @@
         <infoLink name="Infantry" id="9516-2586-f667-802b" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
         <infoLink name="Mechanical Infantry" id="ef12-c182-9eb9-3ab7" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="8e75-1cbe-b79c-547f" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
-        <infoLink name="Repair 3" id="1951-612d-9fcd-2fea" hidden="false" type="profile" targetId="0b42-de75-2e47-5850"/>
         <infoLink name="Repair X" id="9488-d8f3-f0a3-2444" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Repair 4" id="f1f1-52f4-c4fb-2722" hidden="false" type="profile" targetId="cec4-741c-9a7c-645f"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="db25-cfe9-0202-9b6d" includeChildSelections="true"/>
@@ -233,7 +236,7 @@
     <profile name="Guardian Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="4b17-9d29-f56b-4d27">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">33</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">35</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
@@ -309,7 +312,7 @@
     </profile>
     <profile name="Mechanical Infantry" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="95be-29ef-1221-fa2c">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">Infantry in The Robots may use the “Power to Shields!” special rule.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</characteristic>
       </characteristics>
     </profile>
     <profile name="Distraction Field" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="db3f-0d66-6751-f7d2">
@@ -319,7 +322,7 @@
     </profile>
     <profile name="Improved Shield Generators" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="7f74-b746-a02a-e864">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter uses the “Power to Shields” special rule, it may spend up to 5 energy.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When Non-Infantry Fighters in The Automaton Empire use the “Power to Shields” special rule, they may spend up to 5 energy.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -373,12 +376,15 @@
   <rules>
     <rule name="OTA Patching" id="b55d-3104-eaa8-9917" hidden="false">
       <description>During the Prep Phase (step 5) you may place up to 5 activation markers of any type among your active Fighters. Then, for each Fighter that received any markers this way, they receive the following benefits (cumulative)
-- 1+ Marker: Heal up to 1 HP from that Fighter.
+- 1+ Marker: Immediately heal up to 1 HP from that Fighter for each marker it received.
 - 2+ Markers: That Fighter’s Defense Rank is improved by 1 this round. (lowered eg. 4+ -&gt; 3+) 
 - 3+ Markers: That Fighter gains +1 Evasion this round.</description>
     </rule>
     <rule name="Mechanical Infantry" id="dc42-5f1a-167f-cc82" hidden="false">
       <description>Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</description>
+    </rule>
+    <rule name="Improved Shield Generators" id="5aed-f638-1576-1cd6" hidden="false">
+      <description>When Non-Infantry Fighters in The Automaton Empire use the “Power to Shields!” special rule, they may spend up to 5 energy.</description>
     </rule>
   </rules>
 </catalogue>

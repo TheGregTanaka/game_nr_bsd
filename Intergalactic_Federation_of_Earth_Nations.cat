@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="10" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="12" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -43,7 +43,7 @@
       <profiles>
         <profile name="Specialist" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="cf48-9228-21f5-f68d">
           <characteristics>
-            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Cost 2]: Before resolving an attack, spend 2 energy. This attack gains Anti-Evade 1, and you may add one d10 to your hit roll. Remove one result before resolving damage.</characteristic>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Fast, Cost 2]: Before resolving an attack, spend 2 energy. This attack gains Anti-Evade 1, and you may add one d10 to your hit roll. Remove one result before resolving damage.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -200,7 +200,7 @@
     <profile name="Mid-Size Walker" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="7d14-15ec-0d1e-1204">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">26</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">25</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
@@ -222,7 +222,7 @@
     <profile name="Heavy Walker" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="e134-7ea3-d77d-7e7d">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">31</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">30</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">10</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">2+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
@@ -255,7 +255,7 @@
     <profile name="The Behemoth" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="dc57-0a8a-07a6-c639">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">100mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">41</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">40</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">17</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">2+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
@@ -349,7 +349,7 @@
       <description>Each round, during the Prep Phase (step 5), choose one of the following effects for the round.
 - Increase your PEP by 5 and gain 5 Energy.
 - Increase the Speed of each of your active Fighters by 0.5” this round.
-- Immediately heal up to 4 HP from among your active Fighters.
+- Immediately heal up to 6 HP from among your active Fighters.
 - Once during this round, you may take a third action during your turn.</description>
     </rule>
   </rules>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="14" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="19" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -247,7 +247,7 @@
       <characteristics>
         <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">14&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
-        <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">2-10</characteristic>
+        <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">2-9</characteristic>
         <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">2E</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
@@ -420,7 +420,7 @@
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">2</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
         <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Anti-Evade 1</characteristic>
-        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If this attack deals damage to a target, deal an additional damage to that target (this is also saved at Pierce 2).</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">Special: If a target loses HP to this attack, deal one additional hit to that target (this is also saved at Pierce 2)</characteristic>
       </characteristics>
     </profile>
     <profile name="Bigger Battering Ram" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="a33b-900b-a57e-b7b7">
@@ -579,7 +579,7 @@
       <characteristics>
         <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">7&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">3+</characteristic>
-        <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">1-9</characteristic>
+        <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">1-8</characteristic>
         <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">E</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
@@ -747,9 +747,9 @@
       <characteristics>
         <characteristic name="Range" typeId="d7e7-b623-4ee6-6edf">1&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
-        <characteristic name="Attack Cost [E]" typeId="6f59-3bd2-a931-84d3">2-4</characteristic>
+        <characteristic name="Attack Cost [E]" typeId="6f59-3bd2-a931-84d3">2-5</characteristic>
         <characteristic name="Roll" typeId="3f1c-f37d-da24-5cb5">E+3</characteristic>
-        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">3</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">2</characteristic>
         <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
         <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 1, Anti-Evade 2</characteristic>
         <characteristic name="Special" typeId="3f92-fbae-a46e-e814">If an opposing Fighter loses hit points to this attack, that player loses an equal amount of energy (to a maximum of 5). You gain half the amount of energy lost.</characteristic>
@@ -757,7 +757,7 @@
     </profile>
     <profile name="Assault HMG" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="9f8a-89c5-2005-d1f5">
       <characteristics>
-        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">7&quot;</characteristic>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">5+</characteristic>
         <characteristic name="Attack Cost [E]" typeId="409b-27b8-c943-65c7">3-7</characteristic>
         <characteristic name="Roll" typeId="9a69-7a7b-f4ef-2f54">3E</characteristic>
@@ -769,7 +769,12 @@
     </profile>
     <profile name="Stealthy" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="84b7-c604-53f4-0598">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: If this Fighter has not taken any Combat actions this round, it gains +1 Evasion.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: If this Fighter has not taken any Combat actions this round, it gains +1 Evasion against Ranged attacks.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Repair 4" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="cec4-741c-9a7c-645f">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Non-Combat Action, Cost 1-4]: A Fighter with this ability selects a friendly target within 6&quot; (including themselves). That target restores HP equal to the energy spent.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
@@ -1022,7 +1027,7 @@ Includes the following two abilities.
       <alias>Transport 12</alias>
     </rule>
     <rule name="Infantry" id="d2ef-bf52-0e51-e650" hidden="false">
-      <description>Infantry may be activated six times per round. Infantry may not use the Digging In or Power to Shields special rules, but always has the Fast Claim ability. Infantry does not become Heavily Damaged, and contributes their full EP to your PEP even after being destroyed.</description>
+      <description>Infantry may be activated six times per round. Infantry may not use the Digging In or Power to Shields! special rules, but always has the Fast Claim ability. Infantry does not become Heavily Damaged, and contributes their full EP to your PEP even after being destroyed.</description>
       <alias>[I]</alias>
     </rule>
     <rule name="Multiattack" id="39a3-54fd-c4cf-4c71" hidden="false">
@@ -1055,7 +1060,15 @@ Includes the following two abilities.
       <description>You may not have more than 3 of this profile in your roster.</description>
     </rule>
     <rule name="Stealthy" id="c984-487a-4bf1-8c4e" hidden="false">
-      <description>[Passive]: If this Fighter has no Combat activation markers, it gains +1 Evasion.</description>
+      <description>[Passive]: If this Fighter has no Combat activation markers, it gains +1 Evasion against Ranged attacks.</description>
+    </rule>
+    <rule name="Power to Shields!" id="764f-3162-b336-9a0e" hidden="false">
+      <description>Before rolling any saves, the defending player may spend up to 4 energy. For each energy spent, one additional d10 is added to the save roll. After rolling all dice, the defending player removes that same number of results (successes or failures), before applying damage. 
+Infantry Fighters may not use this ability.</description>
+    </rule>
+    <rule name="Digging In" id="45e6-47d4-678f-3192" hidden="false">
+      <description>When a Fighter with no Non-Combat activation markers takes an Attack action, they may treat one attack as though additional energy was spent, equal to the number of Combat activation markers they have (not including any for the current action). This bonus does not count toward the minimum or maximum cost of the attack.
+Infantry Fighters may not use this ability.</description>
     </rule>
   </sharedRules>
 </gameSystem>

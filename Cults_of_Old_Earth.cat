@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="7" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="8" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Light Warsuit" hidden="false" id="5bc9-d808-1cc3-ed1e">
       <costs>
@@ -260,7 +260,7 @@
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">18</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">11</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">7+</characteristic>
-        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
       </characteristics>
