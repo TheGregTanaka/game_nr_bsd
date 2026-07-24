@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="19" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="20" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -347,7 +347,7 @@
         <characteristic name="Roll" typeId="3f1c-f37d-da24-5cb5">2E</characteristic>
         <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">2</characteristic>
         <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
-        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 1, Anti-Evade 1</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 2, Anti-Evade 1</characteristic>
         <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
       </characteristics>
     </profile>
@@ -359,7 +359,7 @@
         <characteristic name="Roll" typeId="3f1c-f37d-da24-5cb5">2E</characteristic>
         <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">0</characteristic>
         <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
-        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 1</characteristic>
         <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
       </characteristics>
     </profile>
