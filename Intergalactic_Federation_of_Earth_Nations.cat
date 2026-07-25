@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="14" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -363,7 +363,7 @@
       <description>Each round, during the Prep Phase (step 5), choose one of the following effects for the round.
 - Increase your PEP by 5 and gain 5 Energy.
 - Increase the Speed of each of your active Fighters by 0.5” this round.
-- Immediately heal up to 6 HP from among your active Fighters.
+- Immediately heal up to 4 HP from among your active Fighters.
 - Once during this round, you may take a third action during your turn.</description>
     </rule>
   </rules>
