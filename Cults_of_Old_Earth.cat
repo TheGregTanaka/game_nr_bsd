@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="10" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="11" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Light Warsuit" hidden="false" id="5bc9-d808-1cc3-ed1e">
       <costs>
@@ -384,7 +384,7 @@
     </rule>
     <rule name="Spite Capacitors" id="6f71-e18a-5e8a-984e" hidden="false">
       <description>All non-infantry Fighters have the following ability:
-Spite Capacitors: When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 0). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter.
+Spite Capacitors: When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 1). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter.
 You may not use both this ability and “Power to Shields!” for the same attack.</description>
     </rule>
   </rules>

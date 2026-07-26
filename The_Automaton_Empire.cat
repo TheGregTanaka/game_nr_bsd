@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="13" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="14" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -335,7 +335,7 @@
     </profile>
     <profile name="Improved Shield Generators" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="7f74-b746-a02a-e864">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When Non-Infantry Fighters in The Automaton Empire use the “Power to Shields” special rule, they may spend up to 5 energy.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter uses the “Power to Shields” special rule, they may spend up to 5 energy.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
