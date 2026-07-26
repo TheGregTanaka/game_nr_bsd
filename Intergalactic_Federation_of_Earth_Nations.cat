@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="14" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="c5cd-832b-b5f4-8c23" name="Intergalactic Federation of Earth Nations" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="2" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Mid-Size Walker" hidden="false" id="aac6-5242-de76-7da6">
       <infoLinks>
@@ -61,6 +61,7 @@
         <infoLink name="Energy Disruption" id="128c-919b-d6c6-bce4" hidden="false" type="profile" targetId="1b82-b7e6-2462-3f3f"/>
         <infoLink name="Digging In" id="204c-0d4d-962b-8ac4" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
         <infoLink name="Power to Shields!" id="4a55-b629-b6a5-90a0" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Distraction Field" id="509f-7a5a-0d46-fe1e" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="c039-1d32-3259-b415" primary="true" name="Non-Infantry"/>
@@ -69,13 +70,6 @@
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="16"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
       </costs>
-      <profiles>
-        <profile name="Distraction Field" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="a20a-9019-0be0-1a52">
-          <characteristics>
-            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Friendly Fighters that do not have the Distraction Field ability within 6&quot; of this model gain +1 to their Evasion.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d8e0-0336-1a5b-49e1" includeChildSelections="true"/>
       </constraints>

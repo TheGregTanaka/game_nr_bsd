@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="20" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="21" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -775,6 +775,11 @@
     <profile name="Repair 4" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="cec4-741c-9a7c-645f">
       <characteristics>
         <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Non-Combat Action, Cost 1-4]: A Fighter with this ability selects a friendly target within 6&quot; (including themselves). That target restores HP equal to the energy spent.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Distraction Field" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="ca5d-3d6f-cc96-3fc5">
+      <characteristics>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Friendly Fighters that do not have the Distraction Field ability within 6&quot; of this model gain +1 to their Evasion.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

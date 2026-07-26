@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="14" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="15" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Bot" hidden="false" id="f13c-9fb5-0871-2c84">
       <costs>
@@ -61,7 +61,6 @@
         <infoLink name="Blasters" id="c647-3689-c7b9-98ee" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
         <infoLink name="Heavy Robot Fists" id="e066-14cd-cb28-c19f" hidden="false" type="profile" targetId="1121-9085-48c9-8c6b"/>
         <infoLink name="Dagger Beam" id="484e-0cc4-d091-0379" hidden="false" type="profile" targetId="bd8a-f37c-7cd3-8698"/>
-        <infoLink name="Distraction Field" id="11df-4fcf-911c-a5ed" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
         <infoLink name="Conspicuous" id="675e-6ac7-0326-dd2d" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
         <infoLink name="Repair 1" id="6016-28d1-b9ba-ec28" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="df65-6a11-c2dc-5f33" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
@@ -69,6 +68,7 @@
         <infoLink name="Improved Shield Generators" id="4ab3-1082-d834-8a0a" hidden="false" type="rule" targetId="5aed-f638-1576-1cd6"/>
         <infoLink name="Power to Shields!" id="da3a-78d1-bdb1-81a6" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="e9c4-ede4-f74b-0187" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Distraction Field" id="4d8b-ef04-3776-a359" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a4e2-f431-3764-646b" includeChildSelections="true"/>
@@ -161,9 +161,9 @@
         <infoLink name="Infantry" id="192e-d253-a3db-3085" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
         <infoLink name="Mechanical Infantry" id="0eb4-c30b-7a2f-c3b7" hidden="false" type="profile" targetId="95be-29ef-1221-fa2c"/>
         <infoLink name="Fast Claim" id="4e6f-17c1-430e-d0c1" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
-        <infoLink name="Distraction Field" id="ba24-96c0-5cb1-0807" hidden="false" type="profile" targetId="db3f-0d66-6751-f7d2"/>
         <infoLink name="Stealthy" id="0fdd-5930-9344-33b3" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
         <infoLink name="Power to Shields!" id="baa4-d0a5-363b-de33" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Distraction Field" id="f017-6ecf-72b7-9007" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="dd21-2446-e835-f559" includeChildSelections="true"/>
@@ -326,11 +326,6 @@
     <profile name="Mechanical Infantry" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="95be-29ef-1221-fa2c">
       <characteristics>
         <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">Infantry in The Automaton Empire may use the “Power to Shields!” special rule.</characteristic>
-      </characteristics>
-    </profile>
-    <profile name="Distraction Field" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="db3f-0d66-6751-f7d2">
-      <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Friendly Fighters that do not have the Distraction Field ability within 6” of this model gain +1 to their Evasion.</characteristic>
       </characteristics>
     </profile>
     <profile name="Improved Shield Generators" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="7f74-b746-a02a-e864">

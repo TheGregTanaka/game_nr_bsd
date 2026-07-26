@@ -204,6 +204,7 @@
         <infoLink name="Curse" id="761a-1632-537f-3285" hidden="false" type="profile" targetId="2bb1-06f3-2bf7-ce57"/>
         <infoLink name="Limit 3" id="c4b1-64ce-3ed6-479a" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
         <infoLink name="Stealthy" id="a5a1-02cd-a7a4-a101" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Distraction Field" id="725e-2270-fc2e-3f4b" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0e8c-e2a1-825d-f7e3" includeChildSelections="true"/>
