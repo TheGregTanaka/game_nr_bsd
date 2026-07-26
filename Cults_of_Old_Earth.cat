@@ -238,7 +238,7 @@
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">75mmx42mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">28</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">10</characteristic>
-        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (6”-9”)</characteristic>
         <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">2-3</characteristic>
