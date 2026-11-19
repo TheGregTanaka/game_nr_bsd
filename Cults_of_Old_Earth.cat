@@ -328,7 +328,7 @@
     </profile>
     <profile name="Spite Capacitors" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="94fc-44db-7a2f-8b87">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 0). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter. You may not use both this ability and “Power to Shields!” for the same attack.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 1). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter. You may not use both this ability and “Power to Shields!” for the same attack.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

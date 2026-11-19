@@ -36,6 +36,7 @@
         <infoLink name="Blasters" id="56f0-151d-26ab-c444" hidden="false" type="profile" targetId="5690-cae0-4eae-01f7"/>
         <infoLink name="Missile Launcher" id="cde8-9ceb-f0cf-b0d7" hidden="false" type="profile" targetId="743d-3430-5339-c49f"/>
         <infoLink name="Long-Range Launcher" id="cf27-b488-41f8-70bc" hidden="false" type="profile" targetId="04d7-e748-0d34-4c13"/>
+        <infoLink name="Light Machine Gun" id="8f1a-ebb7-d8fc-a38c" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
         <infoLink name="Heavy Robot Fists" id="d576-e084-ca19-ddbb" hidden="false" type="profile" targetId="1121-9085-48c9-8c6b"/>
         <infoLink name="Doom Claws" id="fb82-4541-d09a-9d30" hidden="false" type="profile" targetId="b144-a0db-6a1d-a0bd"/>
         <infoLink name="Repair 2" id="e299-8d21-fff3-cb36" hidden="false" type="profile" targetId="7c96-eb83-b5d5-44ff"/>
@@ -115,6 +116,7 @@
         <infoLink name="Fast Claim" id="66fa-ed8e-8827-82cf" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair X" id="4230-ff11-0dfb-9bea" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Stealthy" id="79c0-6a56-cc5c-bab0" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Evasive Maneuvers" id="b65d-0122-df58-9fb7" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Power to Shields!" id="183e-3f3f-a97d-ef44" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
       </infoLinks>
       <constraints>
@@ -171,7 +173,7 @@
       <profiles>
         <profile name="Noisey" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="954c-3f0e-011c-8a9f">
           <characteristics>
-            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">If this Fighter has any Combat activation markers, it gains the Distraction Field ability. (It does not have that ability otherwise.)</characteristic>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">If this Fighter has any Combat activation markers, it gains the Distraction Field ability (it does not have it otherwise).</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -228,7 +230,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">26</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">11</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
@@ -239,7 +241,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">31</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">12</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">15</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
@@ -250,7 +252,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">35</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">14</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-6”)</characteristic>
@@ -272,7 +274,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">20</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">10 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-12”)</characteristic>
@@ -283,7 +285,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">11 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-9”)</characteristic>
@@ -294,7 +296,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">11 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
@@ -305,7 +307,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">32mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">9</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-10”)</characteristic>
@@ -330,7 +332,7 @@
     </profile>
     <profile name="Improved Shield Generators" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="7f74-b746-a02a-e864">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When this Fighter uses the “Power to Shields” special rule, they may spend up to 5 energy.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">When Non-Infantry Fighters in The Automaton Empire use the “Power to Shields!” special rule, they may spend up to 5 energy.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>

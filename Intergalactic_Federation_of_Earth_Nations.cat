@@ -124,7 +124,7 @@
       <infoLinks>
         <infoLink name="The Behemoth" id="73b7-a70e-ecdb-15a5" hidden="false" type="profile" targetId="dc57-0a8a-07a6-c639"/>
         <infoLink name="Gatling Cannon" id="3524-8b44-4937-6d88" hidden="false" type="profile" targetId="b9ec-d7df-c7cb-acac"/>
-        <infoLink name="Mega-Pulse Rifle" id="0673-59d0-f86a-aa52" hidden="false" type="profile" targetId="db34-c9c0-843a-5b94"/>
+        <infoLink name="Mega Pulse Rifle" id="0673-59d0-f86a-aa52" hidden="false" type="profile" targetId="db34-c9c0-843a-5b94"/>
         <infoLink name="Scattershot" id="ef23-7343-022e-8332" hidden="false" type="profile" targetId="c9df-1fe4-6aba-657b"/>
         <infoLink name="Crushing Stomps" id="d467-b24f-95ad-3e83" hidden="false" type="profile" targetId="e0c4-f964-6e0c-f45a"/>
         <infoLink name="Repair 1" id="e5c1-01e4-fadd-3546" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
@@ -176,6 +176,7 @@
         <infoLink name="Infantry" id="56ce-3dd0-1412-525a" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
         <infoLink name="Repair 3" id="96a4-33df-d424-4fd7" hidden="false" type="profile" targetId="0b42-de75-2e47-5850"/>
         <infoLink name="Repair X" id="fb04-4a4f-d26a-f44a" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
+        <infoLink name="Fast Claim" id="9047-22db-f49d-f5df" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="fd09-601c-2638-3118" includeChildSelections="true"/>
@@ -208,7 +209,7 @@
     <profile name="Mid-Size Walker" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="7d14-15ec-0d1e-1204">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">25</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">23</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
@@ -253,7 +254,7 @@
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">30x60mm</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">18</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">7+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
         <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4&quot; (4”-12”)</characteristic>
