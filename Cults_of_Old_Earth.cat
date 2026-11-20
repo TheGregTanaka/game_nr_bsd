@@ -1,26 +1,37 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="11" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="3d49-5d5b-c269-91fb" name="Cults of Old Earth" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="6" revision="16" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Light Warsuit" hidden="false" id="5bc9-d808-1cc3-ed1e">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="7"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="91d4-491f-215f-690b" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="d53b-979d-0e67-5aa7" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Light Warsuit" id="0f25-53d8-ce6d-4626" hidden="false" type="profile" targetId="09e7-e5fc-24ce-324a"/>
-        <infoLink name="Light Machine Gun" id="588c-5f45-8c40-8acc" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
-        <infoLink name="Long-Range Machine Gun" id="be30-5466-0a36-11a8" hidden="false" type="profile" targetId="23e8-ebd4-5666-375b"/>
+        <infoLink name="Light Machine Gun - Standard" id="588c-5f45-8c40-8acc" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
+        <infoLink name="Light Machine Gun - High Power" id="19b2-f871-1e8c-9b68" hidden="false" type="profile" targetId="e323-b954-1c3d-8cb4"/>
+        <infoLink name="Long-Range Machine Gun - Standard" id="be30-5466-0a36-11a8" hidden="false" type="profile" targetId="23e8-ebd4-5666-375b"/>
+        <infoLink name="Long-Range Machine Gun - High Power" id="139b-19b0-f5dd-b875" hidden="false" type="profile" targetId="2d20-db5f-e143-7251"/>
         <infoLink name="Walker Stomps" id="cee9-67f3-abdd-5d57" hidden="false" type="profile" targetId="b5a2-5479-4c7a-890b"/>
-        <infoLink name="Mini-Bombs" id="c4a2-9f1d-3e6b-8072" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Mini-Bombs - 1 Energy" id="c4a2-9f1d-3e6b-8072" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Mini-Bombs - 2 Energy" id="9651-149b-ba54-ae93" hidden="false" type="profile" targetId="5c1b-f632-ee3b-d1ea"/>
+        <infoLink name="Mini-Bombs - 1 Energy" id="c752-d97b-ff37-44e2" hidden="false" type="profile" targetId="72ae-dc4f-fe18-51fe"/>
+        <infoLink name="Mini-Bombs - 2 Energy" id="7e5f-7ca8-e416-c488" hidden="false" type="profile" targetId="f651-06ba-ae1d-2119"/>
+        <infoLink name="Mini-Bombs" id="58ba-01c0-16cc-468d" hidden="false" type="profile" targetId="4733-d5c2-3657-d949"/>
         <infoLink name="Spite Capacitors" id="9e75-875e-76fe-f932" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Fast Claim" id="e825-3b6a-9d17-4fc0" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Repair 1" id="7f4e-2a89-6d13-b0c5" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="9c05-1f68-3e2a-7db4" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Power to Shields!" id="5b72-f2eb-43c3-fb9e" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="adc5-6f04-f391-6902" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Energetic" id="79d5-c4ec-1289-1ff3" hidden="false" type="profile" targetId="e309-c5ee-965a-6d04"/>
+        <infoLink name="Multiattack" id="fa54-f464-babf-3d30" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="c4ab-0eb0-5f4d-1b39" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="6add-62c9-8d5d-f5a9" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="29db-6e6f-0e14-5d0e" includeChildSelections="true"/>
@@ -33,17 +44,22 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="9e16-c143-730f-0ca0" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="eafe-ad91-5ccf-4408" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Medium Warsuit" id="464f-cc74-8868-7bd4" hidden="false" type="profile" targetId="11cb-5c6f-8b1c-ea4f"/>
         <infoLink name="Rocket Launcher" id="c939-5962-8538-0f43" hidden="false" type="profile" targetId="33fd-ac29-28f6-5d1c"/>
-        <infoLink name="Energy Cutters" id="f95e-c439-e1af-82b1" hidden="false" type="profile" targetId="48ba-f96f-23ef-1a44"/>
+        <infoLink name="Energy Cutters - Standard" id="f95e-c439-e1af-82b1" hidden="false" type="profile" targetId="48ba-f96f-23ef-1a44"/>
+        <infoLink name="Energy Cutters - High Power" id="6767-ee6f-1dcc-7783" hidden="false" type="profile" targetId="19c1-5d52-90e5-0e0e"/>
         <infoLink name="Walker Stomps" id="0002-7ab4-0bf1-5fcd" hidden="false" type="profile" targetId="b5a2-5479-4c7a-890b"/>
         <infoLink name="Spite Capacitors" id="2ee9-8eb2-c333-be27" hidden="false" type="profile" targetId="94fc-44db-7a2f-8b87"/>
         <infoLink name="Repair 1" id="d360-8a4f-1c9e-6b72" hidden="false" type="profile" targetId="b023-34b5-1af2-780a"/>
         <infoLink name="Repair X" id="4e8b-af61-2d0c-953a" hidden="false" type="rule" targetId="a4e7-28ff-6f50-7be6"/>
         <infoLink name="Power to Shields!" id="53ca-73d8-3644-74c3" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="d8eb-4c8b-74b3-ecb1" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Energetic" id="c603-08f5-57b1-df9d" hidden="false" type="profile" targetId="e309-c5ee-965a-6d04"/>
+        <infoLink name="Multiattack" id="524e-2612-27ec-34ae" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="2a50-f3de-1dd4-bb9b" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="95d0-81bf-93e3-f6cb" includeChildSelections="true"/>
@@ -52,14 +68,16 @@
     <selectionEntry type="unit" import="true" name="Heavy Cruiser" hidden="false" id="fcb6-76ce-fd88-a0d1">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="5e4f-7f40-c41b-1a0e" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="455c-6c47-af00-edc4" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Heavy Cruiser" id="cda7-edaa-793d-4887" hidden="false" type="profile" targetId="d82f-9867-17fa-573d"/>
-        <infoLink name="Plasma Accelerator" id="be00-5f70-0bca-7a46" hidden="false" type="profile" targetId="ef29-0f43-b928-0597"/>
+        <infoLink name="Plasma Accelerator - Standard" id="be00-5f70-0bca-7a46" hidden="false" type="profile" targetId="ef29-0f43-b928-0597"/>
+        <infoLink name="Plasma Accelerator - High Power" id="82f2-51f5-9088-649d" hidden="false" type="profile" targetId="9acc-161e-71b6-b440"/>
         <infoLink name="Bigger Better Battering Ram" id="3fc3-1116-c592-cff3" hidden="false" type="profile" targetId="3bac-e35e-d5ad-f497"/>
         <infoLink name="Evasive Maneuvers" id="cfba-4add-2b6a-964a" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Transport 6" id="3b61-b1fc-6513-90bd" hidden="false" type="profile" targetId="a530-1235-72e5-78ac"/>
@@ -67,6 +85,9 @@
         <infoLink name="Transport X" id="ab96-7e7d-3ddf-3fb6" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
         <infoLink name="Power to Shields!" id="4e31-9e70-a0cd-58c7" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="85dd-8e15-89a0-7aad" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="8feb-abe0-ab94-f84a" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="5000-fc39-af5e-dfae" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="455d-e194-0e6a-5768" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="b977-6f10-f688-4f2e" includeChildSelections="true"/>
@@ -75,14 +96,16 @@
     <selectionEntry type="unit" import="true" name="Light-Armoured Transport" hidden="false" id="e647-80e1-2abb-2587">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="7"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="c2ec-d23a-345e-f961" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="ad26-ce36-e7c8-dc66" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Light-Armoured Transport" id="fba8-d353-2221-38bf" hidden="false" type="profile" targetId="eb1c-883f-095a-5107"/>
-        <infoLink name="Light Machine Gun" id="7547-42e6-8cee-0b00" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
+        <infoLink name="Light Machine Gun - Standard" id="7547-42e6-8cee-0b00" hidden="false" type="profile" targetId="f8da-59ab-9150-4d31"/>
+        <infoLink name="Light Machine Gun - High Power" id="7e1a-fbf6-68b8-fc8e" hidden="false" type="profile" targetId="e323-b954-1c3d-8cb4"/>
         <infoLink name="Battering Ram" id="edd2-1fdc-3a40-62dc" hidden="false" type="profile" targetId="e96a-19ac-f52e-0c73"/>
         <infoLink name="Evasive Maneuvers" id="4414-9538-2fa6-424b" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Transport 9" id="7870-8fff-aa65-d835" hidden="false" type="profile" targetId="9400-6e81-94c9-e5cb"/>
@@ -90,6 +113,9 @@
         <infoLink name="Transport X" id="aef8-dbb8-5a04-3749" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
         <infoLink name="Digging In" id="efed-c84b-579d-4602" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
         <infoLink name="Power to Shields!" id="34b9-a9ac-19b6-530d" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Multiattack" id="d5f7-3acf-1c9c-1573" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="fe67-0ae0-46df-bce8" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="a9de-dcfd-b003-f1a0" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="51f1-a7e7-8736-d6aa" includeChildSelections="true"/>
@@ -98,16 +124,21 @@
     <selectionEntry type="unit" import="true" name="Xenotech Berserker" hidden="false" id="b429-e8c7-80cb-1caa">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="18"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="44d4-a5ae-218e-6832" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="2fa2-dff8-004b-fd10" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
-        <infoLink name="Entropy Blast Mordor" id="8fee-04c2-f8ea-cc00" hidden="false" type="profile" targetId="901d-7fae-1133-86ae"/>
-        <infoLink name="Plasma Accelerator" id="0ba1-5331-6073-cd0b" hidden="false" type="profile" targetId="ef29-0f43-b928-0597"/>
-        <infoLink name="Magma Launcher" id="8352-cbb1-c6cd-e3ce" hidden="false" type="profile" targetId="383e-5773-cc60-c689"/>
-        <infoLink name="Magma Launcher" id="cb69-6937-bcc5-d47b" hidden="false" type="profile" targetId="db0d-f591-38d5-3e4e"/>
+        <infoLink name="Entropy Blast Mordor - Standard" id="8fee-04c2-f8ea-cc00" hidden="false" type="profile" targetId="901d-7fae-1133-86ae"/>
+        <infoLink name="Entropy Blast Mordor - High Power" id="7c7a-a306-94d4-c100" hidden="false" type="profile" targetId="0c12-2be4-31cd-eff9"/>
+        <infoLink name="Plasma Accelerator - Standard" id="0ba1-5331-6073-cd0b" hidden="false" type="profile" targetId="ef29-0f43-b928-0597"/>
+        <infoLink name="Plasma Accelerator - High Power" id="4e7b-3ee0-fbf6-1359" hidden="false" type="profile" targetId="9acc-161e-71b6-b440"/>
+        <infoLink name="Magma Launcher - Standard" id="8352-cbb1-c6cd-e3ce" hidden="false" type="profile" targetId="383e-5773-cc60-c689"/>
+        <infoLink name="Magma Launcher - High Power" id="78d1-e101-ec22-41b8" hidden="false" type="profile" targetId="f8d5-8b24-25b0-7d0e"/>
+        <infoLink name="Magma Launcher - Standard" id="cb69-6937-bcc5-d47b" hidden="false" type="profile" targetId="db0d-f591-38d5-3e4e"/>
+        <infoLink name="Magma Launcher - High Power" id="50e5-a892-65a0-7a7e" hidden="false" type="profile" targetId="5a84-d366-ce3a-1ab3"/>
         <infoLink name="Doom Claws" id="e2cc-2734-1b1f-e7a5" hidden="false" type="profile" targetId="b144-a0db-6a1d-a0bd"/>
         <infoLink name="Rage Driven" id="25fa-159f-8b71-d719" hidden="false" type="profile" targetId="bd1a-c1b9-f52d-dae5"/>
         <infoLink name="Conspicuous" id="a8de-9193-3ca5-0476" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
@@ -116,6 +147,11 @@
         <infoLink name="Limit 2" id="54a1-7567-6794-d238" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
         <infoLink name="Power to Shields!" id="7b9a-6406-cc57-8fe6" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="f528-150c-e43a-3729" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Energetic" id="feed-fc05-7424-b97a" hidden="false" type="profile" targetId="e309-c5ee-965a-6d04"/>
+        <infoLink name="Multiattack" id="b85a-86a0-e5a0-9cab" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="332d-29b4-366a-fbc5" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="b010-a34c-7d82-7c01" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
+        <infoLink name="Expensive" id="154a-8804-fe0d-74b3" hidden="false" type="rule" targetId="fcdb-51e0-58c7-2d78"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="035a-ebd1-5674-76b7" includeChildSelections="true"/>
@@ -124,10 +160,11 @@
     <selectionEntry type="unit" import="true" name="Zapp Truck" hidden="false" id="7823-f029-0b67-d700">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="11"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="b562-bbc2-7558-09a0" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="45a5-1487-66f3-2af5" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Zapp Truck" id="3052-202a-5036-15b7" hidden="false" type="profile" targetId="a232-be1b-7f07-7bc0"/>
@@ -140,6 +177,8 @@
         <infoLink name="Transport X" id="a95d-8932-4f5c-fd51" hidden="false" type="rule" targetId="8a2b-0970-351a-2d12"/>
         <infoLink name="Power to Shields!" id="ca6b-ed0d-8cab-771c" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
         <infoLink name="Digging In" id="1684-3fcc-a604-3985" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Charge X" id="fbe5-fcc5-dd46-2cc1" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="e8a4-6dba-01e2-0fcd" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="5795-5cf0-dda2-ecbc" includeChildSelections="true"/>
@@ -148,10 +187,11 @@
     <selectionEntry type="unit" import="true" name="Old Earth Militia" hidden="false" id="12b8-63d7-848e-06c3">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="5"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="02ad-f579-ea8a-9480" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="d70f-8ec6-ffb8-3b60" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Old Earth Militia" id="0f99-0536-7821-8924" hidden="false" type="profile" targetId="9cf0-64a1-0f83-6ab6"/>
@@ -169,10 +209,11 @@
     <selectionEntry type="unit" import="true" name="Martian Guerrillas" hidden="false" id="cab6-3758-38d4-705f">
       <costs>
         <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="6"/>
-        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="7"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="5b83-e998-e5f3-0ff2" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="f324-db5e-a51d-cbc3" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Martian Guerrillas" id="d1c5-6227-283f-abd3" hidden="false" type="profile" targetId="44b3-0d86-a0d1-5251"/>
@@ -182,6 +223,7 @@
         <infoLink name="Fast Claim" id="ecd0-6527-934a-11e4" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
         <infoLink name="Evasive Maneuvers" id="88d7-b02c-8129-6d40" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
         <infoLink name="Stealthy" id="9bcf-b251-3c32-d071" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
+        <infoLink name="Charge X" id="8e9c-effc-2e11-9a23" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="5a71-744f-c695-7930" includeChildSelections="true"/>
@@ -194,6 +236,7 @@
       </costs>
       <categoryLinks>
         <categoryLink targetId="default-category" id="619b-d8b3-785b-4727" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="34ed-881d-9647-81fb" primary="false" name="Fighter"/>
       </categoryLinks>
       <infoLinks>
         <infoLink name="Cultists" id="2f9a-c775-2799-f0dc" hidden="false" type="profile" targetId="e986-55cf-ed60-3e12"/>
@@ -205,6 +248,7 @@
         <infoLink name="Limit 3" id="c4b1-64ce-3ed6-479a" hidden="false" type="rule" targetId="7d6c-71b3-1b61-a0d4"/>
         <infoLink name="Stealthy" id="a5a1-02cd-a7a4-a101" hidden="false" type="profile" targetId="84b7-c604-53f4-0598"/>
         <infoLink name="Distraction Field" id="725e-2270-fc2e-3f4b" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
+        <infoLink name="Charge X" id="b612-22b9-ec21-6016" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
       </infoLinks>
       <constraints>
         <constraint type="max" value="3" field="selections" scope="roster" shared="true" id="0e8c-e2a1-825d-f7e3" includeChildSelections="true"/>
@@ -215,89 +259,89 @@
     <profile name="Light Warsuit" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="09e7-e5fc-24ce-324a">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">18</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">13</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-9”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (4”-8”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Medium Warsuit" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="11cb-5c6f-8b1c-ea4f">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">24</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">17</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-9”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-3</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (4”-8”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Heavy Cruiser" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="d82f-9867-17fa-573d">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">75mmx42mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">28</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">10</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">22</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (6”-9”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">2-3</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">3 (3”-9”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Light-Armoured Transport" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="eb1c-883f-095a-5107">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mmx30mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">22</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">15</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">5” (5”-10”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">5”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (5”-10”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Xenotech Berserker" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="52c8-a68f-b228-51f2">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">10</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">16</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">3+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">0</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4” (4”-8”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (4”-8”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Zapp Truck" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="a232-be1b-7f07-7bc0">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mmx30mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">18</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">11</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">12</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">7+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2” (2”-8”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">4 (2”-8”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Old Earth Militia" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="9cf0-64a1-0f83-6ab6">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">28mm x5</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">2 x5 (10)</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">8+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4” (4”-8”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (4”-8”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Martian Guerrillas" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="44b3-0d86-a0d1-5251">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">25mm x4</characteristic>
         <characteristic name="HP" typeId="f257-8c1b-5311-7a09">3 x4 (12)</characteristic>
-        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">7 [I]</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">8+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-12”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">4 (3”-12”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Cultists" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="e986-55cf-ed60-3e12">
@@ -307,13 +351,13 @@
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">9+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
-        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3” (3”-12”)</characteristic>
-        <characteristic name="Move Cost" typeId="04b4-5fa7-c5cf-b5e2">1-4</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">3 (3”-9”)</characteristic>
       </characteristics>
     </profile>
     <profile name="Rage Driven" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="bd1a-c1b9-f52d-dae5">
       <characteristics>
-        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Every time this model loses a hit point, gain 1 energy.</characteristic>
+        <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: Every time this model loses hit points, gain 1 energy.</characteristic>
       </characteristics>
     </profile>
     <profile name="ZAPP!" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="30bd-40ce-0b21-092c">
@@ -336,57 +380,68 @@
     <entryLink import="true" name="Cultists" hidden="false" id="ac30-185a-0622-c018" targetId="e1b0-7b80-47a1-2501" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="default-category" id="4e09-89d4-1676-9c95" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="5a56-aa62-814b-5549" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Heavy Cruiser" hidden="false" id="39c6-6a6e-9855-1231" targetId="fcb6-76ce-fd88-a0d1" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="327f-ad75-00a8-5e58" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="6c75-b0de-6c6b-6ddf" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Light Warsuit" hidden="false" id="0c67-ff57-bc1b-fdff" targetId="5bc9-d808-1cc3-ed1e" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="5dbb-5dc4-0d9c-25eb" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="c523-9316-0cb2-e7d7" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Light-Armoured Transport" hidden="false" id="c7f9-508f-392e-8d97" targetId="e647-80e1-2abb-2587" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="6994-cbf8-5870-03ad" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="4e48-e42c-b7dd-dd8a" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Martian Guerrillas" hidden="false" id="dff1-bb0f-1bab-4cd6" targetId="cab6-3758-38d4-705f" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="default-category" id="8d44-c39c-bc2c-186f" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="dc86-8cda-341b-04c5" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Medium Warsuit" hidden="false" id="8daa-0bf2-dda7-f123" targetId="cbe8-5b3e-a949-a2aa" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="2ab4-f12f-e25d-268a" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="cb78-151c-a59e-46d0" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Old Earth Militia" hidden="false" id="2491-0218-dbba-bcf0" targetId="12b8-63d7-848e-06c3" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="default-category" id="b1a6-448b-538a-fbcc" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="caaa-4957-e6fc-7119" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Xenotech Berserker" hidden="false" id="793c-29ee-1ae5-95a8" targetId="b429-e8c7-80cb-1caa" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="468b-bf64-d684-aad3" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="2ef0-34d9-4549-8afc" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
     <entryLink import="true" name="Zapp Truck" hidden="false" id="4907-dfba-0818-05bc" targetId="7823-f029-0b67-d700" type="selectionEntry">
       <categoryLinks>
         <categoryLink targetId="cb2a-dcde-daa4-844d" id="cd32-0adb-f553-fab5" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="1340-1c03-13a7-eb71" primary="false" name="Fighter"/>
       </categoryLinks>
     </entryLink>
   </entryLinks>
   <rules>
+    <rule name="Base PEP" id="04de-a14e-e7c3-7d68" hidden="false">
+      <description>Cults of Old Earth have a base PEP of 13 instead of 10.</description>
+    </rule>
     <rule name="Restorative Spells" id="e2f9-a006-f9ea-7d79" hidden="false">
       <description>During the Upkeep phase (step 1), if you have any unspent energy, you may spend up to 4 of that energy. You may immediately heal up to 2 HP from among your active Fighters for each energy spent this way.</description>
     </rule>
     <rule name="Spite Capacitors" id="6f71-e18a-5e8a-984e" hidden="false">
       <description>All non-infantry Fighters have the following ability:
-Spite Capacitors: When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 1). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter.
-You may not use both this ability and “Power to Shields!” for the same attack.</description>
+Spite Capacitors: When this Fighter takes damage from a ranged attack, before rolling saves, you may choose to convert up to 4 of that damage to deadly damage (roll this many fewer saves). The attacking Fighter takes an amount of damage equal to the deadly damage taken this way. (They may save against this at Pierce 1). If this Fighter is destroyed by deadly damage taken this way, also deal 1 Deadly Damage to the attacking Fighter. You may not use both this ability and “Power to Shields!” for the same attack.</description>
     </rule>
   </rules>
 </catalogue>
