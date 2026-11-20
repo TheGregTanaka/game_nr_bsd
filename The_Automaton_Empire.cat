@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="23" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue library="false" id="0d80-9631-4108-5658" name="The Automaton Empire" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="7" revision="24" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <sharedSelectionEntries>
     <selectionEntry type="unit" import="true" name="Standard Chassis" hidden="false" id="496b-28fc-2b6f-e069">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="7"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="5"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
@@ -141,7 +141,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Heavy Chassis" hidden="false" id="2697-c8e1-3c5d-ec32">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="9"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="8"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
       </costs>
       <categoryLinks>
@@ -683,7 +683,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Mini-Bombs" hidden="false" id="90cb-ac6c-db09-4282">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="3"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="2"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="0"/>
       </costs>
       <infoLinks>
@@ -759,7 +759,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Improved Armor Plating" hidden="false" id="b672-1abf-4555-3dcd">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="6"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="5"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="0"/>
       </costs>
       <infoLinks>
@@ -771,7 +771,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Improved Batteries" hidden="false" id="1045-ba13-0445-6f87">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="8"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="6"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="3"/>
       </costs>
       <infoLinks>
@@ -784,7 +784,7 @@
     </selectionEntry>
     <selectionEntry type="upgrade" import="true" name="Sonic Projectors" hidden="false" id="5509-068d-f581-c4fa">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="5"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="4"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="0"/>
       </costs>
       <infoLinks>

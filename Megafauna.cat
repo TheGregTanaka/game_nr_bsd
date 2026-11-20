@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue library="false" id="cad7-d4d0-5d87-de8b" name="Megafauna" gameSystemId="sys-faa2-1e7e-e47d-94d8" gameSystemRevision="29" revision="2" battleScribeVersion="2.03" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <sharedSelectionEntries>
+    <selectionEntry type="unit" import="true" name="Giant Lizard" hidden="false" id="8772-9842-a42b-36b5">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="19"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="8"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="6838-78d1-00a7-cb72" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="a1df-f788-1bd6-90eb" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Giant Lizard" id="b26a-7d2a-b28e-7c28" hidden="false" type="profile" targetId="9ce1-24ea-883b-348e"/>
+        <infoLink name="Breath Weapon (Energy) - Standard" id="2f78-46fa-5882-9d8d" hidden="false" type="profile" targetId="21d5-e71a-4abe-fa9c"/>
+        <infoLink name="Breath Weapon (Energy) - High Power" id="7a37-fee8-8177-847b" hidden="false" type="profile" targetId="c989-07c5-4503-d6f7"/>
+        <infoLink name="Breath Weapon (Energy) - Standard" id="b6aa-b3d7-2570-638e" hidden="false" type="profile" targetId="4739-d956-116e-962f"/>
+        <infoLink name="Breath Weapon (Energy) - High Power" id="0947-eb2b-522f-2025" hidden="false" type="profile" targetId="fb7f-e47a-258a-8a31"/>
+        <infoLink name="Doom Claws" id="6324-dd75-24df-0a0f" hidden="false" type="profile" targetId="b144-a0db-6a1d-a0bd"/>
+        <infoLink name="Claws - Standard" id="42ff-1037-7bc7-1ec3" hidden="false" type="profile" targetId="136c-938d-33bd-d840"/>
+        <infoLink name="Claws - High Power" id="e3f4-8224-4b38-a8f0" hidden="false" type="profile" targetId="f230-de43-d801-5985"/>
+        <infoLink name="Energetic" id="bd49-a6d8-3793-c33c" hidden="false" type="profile" targetId="e309-c5ee-965a-6d04"/>
+        <infoLink name="Limit 2" id="ea87-a36a-4acd-7e41" hidden="false" type="rule" targetId="6b01-e6de-5a72-80a1"/>
+        <infoLink name="Power to Shields!" id="e4c0-7c41-7ad5-bb8c" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="6c0f-8716-d7c4-328c" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="98b5-fe00-be22-9507" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="00b9-b334-0ae4-cf1e" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Adaptive Pierce" id="9892-91a3-5394-3b06" hidden="false" type="rule" targetId="f6e2-a9dc-f7a6-8f04"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="2" field="selections" scope="roster" shared="true" id="9785-d3dc-2c5c-58ff" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lizard Beast" hidden="false" id="b3f1-4cc8-8d15-92ea">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="cbeb-1652-519b-20a3" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="e3a0-05f4-5249-c21b" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Lizard Beast" id="9cfc-995e-afa2-336d" hidden="false" type="profile" targetId="2b9a-15fe-efa2-8676"/>
+        <infoLink name="Breath Weapon (Scream) - Standard" id="4e3f-28f5-8206-da35" hidden="false" type="profile" targetId="3d7a-0a68-eca5-4e7d"/>
+        <infoLink name="Breath Weapon (Scream) - High Power" id="c3b4-37ef-9605-427b" hidden="false" type="profile" targetId="9cb6-8c82-aa62-5a49"/>
+        <infoLink name="Breath Weapon (Scream) - Standard" id="017e-2b75-cfcb-0218" hidden="false" type="profile" targetId="d1cd-f595-df18-2495"/>
+        <infoLink name="Breath Weapon (Scream) - High Power" id="4987-7e58-783b-2b1c" hidden="false" type="profile" targetId="2eb5-8adb-3415-debc"/>
+        <infoLink name="Claws - Standard" id="c95e-0031-d579-8962" hidden="false" type="profile" targetId="136c-938d-33bd-d840"/>
+        <infoLink name="Claws - High Power" id="d60c-5f41-e515-b4ac" hidden="false" type="profile" targetId="f230-de43-d801-5985"/>
+        <infoLink name="Power to Shields!" id="22fc-7693-327b-67e4" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="b21f-6ce6-62df-6f87" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="6ca0-0978-3d04-afed" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="722d-bd6b-d87c-d42f" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="b10d-622a-79e6-d7cc" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
+        <infoLink name="Adaptive Pierce" id="76b1-94ab-fb6e-5bbf" hidden="false" type="rule" targetId="f6e2-a9dc-f7a6-8f04"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="4506-05a2-334b-7b76" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Needle Beast" hidden="false" id="b68f-6535-ef9d-b264">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="1148-4702-1635-2fd3" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="4467-0914-7f70-bf5f" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Needle Beast" id="f14a-59ff-db63-34d7" hidden="false" type="profile" targetId="99a0-5ee4-2659-0f26"/>
+        <infoLink name="Needle Shot" id="a399-ad58-215c-8577" hidden="false" type="profile" targetId="8055-0bc8-f5dd-9458"/>
+        <infoLink name="Breath Weapon (Energy) - Standard" id="0114-eebb-13ed-2a8c" hidden="false" type="profile" targetId="21d5-e71a-4abe-fa9c"/>
+        <infoLink name="Breath Weapon (Energy) - High Power" id="a07e-efde-6f79-a55c" hidden="false" type="profile" targetId="c989-07c5-4503-d6f7"/>
+        <infoLink name="Breath Weapon (Energy) - Standard" id="e7ff-020c-4261-0a38" hidden="false" type="profile" targetId="4739-d956-116e-962f"/>
+        <infoLink name="Breath Weapon (Energy) - High Power" id="3855-290b-5985-c31b" hidden="false" type="profile" targetId="fb7f-e47a-258a-8a31"/>
+        <infoLink name="Claws - Standard" id="c17c-9955-822c-b618" hidden="false" type="profile" targetId="136c-938d-33bd-d840"/>
+        <infoLink name="Claws - High Power" id="36a5-3dd3-7cc0-2e0d" hidden="false" type="profile" targetId="f230-de43-d801-5985"/>
+        <infoLink name="Power to Shields!" id="ba8d-b3bb-42da-4d21" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="27a2-e3fa-4ef3-7e0a" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="1d8e-3099-795f-bdc6" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="62cf-5641-7bc2-1379" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="8b03-b692-b048-eebd" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
+        <infoLink name="Adaptive Pierce" id="9740-0c6e-138a-f1dd" hidden="false" type="rule" targetId="f6e2-a9dc-f7a6-8f04"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="9287-ef2f-55e8-1a02" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Two-Headed Beast" hidden="false" id="c645-5c3b-5890-4888">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="531d-900b-28bc-3add" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="0835-3fae-008c-2b53" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Two-Headed Beast" id="df28-12e4-9583-4728" hidden="false" type="profile" targetId="3e44-41f9-5480-e378"/>
+        <infoLink name="Breath Weapon (Ice) - Standard" id="75c5-a301-aefb-3d59" hidden="false" type="profile" targetId="99c6-574b-087f-3dc5"/>
+        <infoLink name="Breath Weapon (Ice) - High Power" id="4c8e-9d33-5c19-598e" hidden="false" type="profile" targetId="c398-f07e-282a-b22e"/>
+        <infoLink name="Breath Weapon (Fire) - Standard" id="7388-dc4e-e513-7810" hidden="false" type="profile" targetId="90fe-f971-2839-caf0"/>
+        <infoLink name="Breath Weapon (Fire) - High Power" id="c11c-722c-5f4b-0520" hidden="false" type="profile" targetId="a7d1-8365-4034-d8ef"/>
+        <infoLink name="Breath Weapon (Fire) - Standard" id="e809-d34f-d31f-61a5" hidden="false" type="profile" targetId="db05-b9b4-dd53-f63b"/>
+        <infoLink name="Breath Weapon (Fire) - High Power" id="05f8-002f-9f72-30cc" hidden="false" type="profile" targetId="1b4a-7cb9-6109-52c6"/>
+        <infoLink name="Claws - Standard" id="63d0-48bd-67c2-e751" hidden="false" type="profile" targetId="136c-938d-33bd-d840"/>
+        <infoLink name="Claws - High Power" id="66e1-3230-be8b-b2bd" hidden="false" type="profile" targetId="f230-de43-d801-5985"/>
+        <infoLink name="Power to Shields!" id="ab9e-83d7-ef39-d70f" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="deb2-86bb-254e-aee9" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="b9ab-8b3b-783b-a04e" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="0bc0-a948-6895-53db" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="5f51-8084-23b7-1573" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
+        <infoLink name="Adaptive Pierce" id="24a5-4d72-9d7e-b5e7" hidden="false" type="rule" targetId="f6e2-a9dc-f7a6-8f04"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="0a07-bb5f-80ea-ad11" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Apeman" hidden="false" id="8ee8-d653-fb66-d42f">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="15"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="5"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="e030-66f3-2250-25fb" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="9af0-6fde-adc2-9e98" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Apeman" id="5fed-650b-def6-2884" hidden="false" type="profile" targetId="ca3f-33dc-7007-14b3"/>
+        <infoLink name="Thrown Debris" id="1025-d530-d0fe-960f" hidden="false" type="profile" targetId="cef6-2fa6-61a3-c43d"/>
+        <infoLink name="Thrown Debris" id="8bad-29db-fc4b-5904" hidden="false" type="profile" targetId="4f53-d79b-3b05-d8eb"/>
+        <infoLink name="Club-like Fists" id="6512-2cb6-72e6-cb45" hidden="false" type="profile" targetId="cb7c-5c67-0e31-b4c4"/>
+        <infoLink name="Evasive Maneuvers" id="e0c4-1a43-ae53-1f58" hidden="false" type="profile" targetId="2794-fc87-6ba5-2f3e"/>
+        <infoLink name="Distraction Field" id="efbf-06b3-aaa9-d1bf" hidden="false" type="profile" targetId="ca5d-3d6f-cc96-3fc5"/>
+        <infoLink name="Conspicuous" id="9281-04a5-581a-2373" hidden="false" type="profile" targetId="86c4-f3c3-7d5c-1637"/>
+        <infoLink name="Power to Shields!" id="bc53-d7ac-758b-11ec" hidden="false" type="rule" targetId="764f-3162-b336-9a0e"/>
+        <infoLink name="Digging In" id="00e9-6691-032c-5fca" hidden="false" type="rule" targetId="45e6-47d4-678f-3192"/>
+        <infoLink name="Multiattack" id="fe6f-518a-af99-ca47" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="79c9-978b-eaa7-5ce0" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="aa87-1d05-6ec1-b868" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Lizapedes" hidden="false" id="0605-ff12-ebf1-54b2">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="11"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="9"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="aad5-d337-c84a-ebaf" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="73b6-3608-1792-d841" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Lizapedes" id="be76-6021-b13b-0226" hidden="false" type="profile" targetId="6a77-ffe6-fe43-176d"/>
+        <infoLink name="Venom Spit" id="3676-e72b-6323-4bba" hidden="false" type="profile" targetId="9d4e-8b8a-2eee-2f1f"/>
+        <infoLink name="Venom Spit" id="83db-e9cd-54f9-16bb" hidden="false" type="profile" targetId="2d4e-bdd2-90bc-a056"/>
+        <infoLink name="Mini-Bombs - 1 Energy" id="a7cb-d7e3-d277-1ee3" hidden="false" type="profile" targetId="29fa-0c7b-95ee-bd0d"/>
+        <infoLink name="Mini-Bombs - 2 Energy" id="ddd3-aff8-1644-6116" hidden="false" type="profile" targetId="5c1b-f632-ee3b-d1ea"/>
+        <infoLink name="Mini-Bombs - 1 Energy" id="a3ea-f081-6312-fcae" hidden="false" type="profile" targetId="72ae-dc4f-fe18-51fe"/>
+        <infoLink name="Mini-Bombs - 2 Energy" id="9f8e-9ba4-74a5-d35a" hidden="false" type="profile" targetId="f651-06ba-ae1d-2119"/>
+        <infoLink name="Claws - Standard" id="2e3b-b012-7448-5dfa" hidden="false" type="profile" targetId="136c-938d-33bd-d840"/>
+        <infoLink name="Claws - High Power" id="1420-b078-4745-c79e" hidden="false" type="profile" targetId="f230-de43-d801-5985"/>
+        <infoLink name="Infantry" id="c682-4eab-4521-6ba5" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Fast Claim" id="1566-4892-16cb-4cf4" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Mini-Bombs" id="35d3-0a8b-3328-2087" hidden="false" type="profile" targetId="4733-d5c2-3657-d949"/>
+        <infoLink name="Energetic" id="69f3-9537-e7f9-ee79" hidden="false" type="profile" targetId="e309-c5ee-965a-6d04"/>
+        <infoLink name="Multiattack" id="ae91-bdac-b75d-5fcb" hidden="false" type="rule" targetId="39a3-54fd-c4cf-4c71"/>
+        <infoLink name="Charge X" id="2888-bea6-e6b4-26ac" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+        <infoLink name="Anti-Evade X" id="b3f1-c503-14cf-b4a5" hidden="false" type="rule" targetId="4430-4387-077e-36f0"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="d311-3750-1137-2151" includeChildSelections="true"/>
+      </constraints>
+    </selectionEntry>
+    <selectionEntry type="unit" import="true" name="Swarm of Beetlions" hidden="false" id="463a-265c-8a0e-7c39">
+      <costs>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="10"/>
+        <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
+      </costs>
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="f7ec-0102-6ad9-85e9" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="9a24-8d53-1add-1e62" primary="false" name="Fighter"/>
+      </categoryLinks>
+      <infoLinks>
+        <infoLink name="Swarm of Beetlions" id="f876-d0ac-d754-4139" hidden="false" type="profile" targetId="1a16-8809-d7a7-2f25"/>
+        <infoLink name="Gnawing - Standard" id="4acf-605b-94e9-0217" hidden="false" type="profile" targetId="fc2e-99e4-d321-2a1f"/>
+        <infoLink name="Gnawing - High Power" id="862e-c666-757b-6bb3" hidden="false" type="profile" targetId="5138-9a91-eb45-303b"/>
+        <infoLink name="Infantry" id="0954-1704-3eb2-1f3d" hidden="false" type="rule" targetId="d2ef-bf52-0e51-e650"/>
+        <infoLink name="Fast Claim" id="7b06-d869-cac9-c5ff" hidden="false" type="profile" targetId="18fd-0b48-64e6-0958"/>
+        <infoLink name="Charge X" id="f3c6-88a5-eb09-3f1c" hidden="false" type="rule" targetId="10aa-e86a-9c06-6a42"/>
+      </infoLinks>
+      <constraints>
+        <constraint type="max" value="4" field="selections" scope="roster" shared="true" id="a80d-25bf-4981-a6a4" includeChildSelections="true"/>
+      </constraints>
+      <profiles>
+        <profile name="Curl Up" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="5753-a1aa-1ddb-c44d">
+          <characteristics>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: When this model takes the Evade action, also reduce its Defense rank by 1 and its Move by 1. This Defense bonus and Move reduction cannot be stacked.</characteristic>
+          </characteristics>
+        </profile>
+        <profile name="Teeming Swarm" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="57f5-56f2-4b0b-50ea">
+          <characteristics>
+            <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Passive]: In the Prep Phase, if this Fighter is not destroyed, choose one of the following options:
+- Heal up to 3 Damage from this Fighter. (you may not exceed 4 models.)
+- This Fighter gains +1 EP this round.
+- Destroy a model in this Fighter, this Fighter gains +3 EP this round. You may not destroy the last model in the Fighter this way.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedProfiles>
+    <profile name="Giant Lizard" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="9ce1-24ea-883b-348e">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">100mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">27</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">8</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">3 (3”-9”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lizard Beast" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="2b9a-15fe-efa2-8676">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">4 (2”-8”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Needle Beast" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="99a0-5ee4-2659-0f26">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">50mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">7+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">3</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">3”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">3 (3”-9”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Two-Headed Beast" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="3e44-41f9-5480-e378">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">21</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">4 (2”-8”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Apeman" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="ca3f-33dc-7007-14b3">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60mm</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">22</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">5</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">7+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">3</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">4”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">2 (4”-8”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Lizapedes" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="6a77-ffe6-fe43-176d">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">60x30mm x2</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">6 x2 (12)</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">9 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">2</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">5 (2”-10”)</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Swarm of Beetlions" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="1a16-8809-d7a7-2f25">
+      <characteristics>
+        <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">25mm x4</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">4 x4 (16)</characteristic>
+        <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
+        <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">4+</characteristic>
+        <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
+        <characteristic name="Speed" typeId="f61c-2154-0e40-daf2">2”</characteristic>
+        <characteristic name="Move" typeId="04b4-5fa7-c5cf-b5e2">4 (2”-8”)</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <entryLinks>
+    <entryLink import="true" name="Apeman" hidden="false" id="530c-4e5f-6db4-bc6f" targetId="8ee8-d653-fb66-d42f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="f022-d36c-8c8c-1d4a" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="2b02-4a46-af63-308b" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Giant Lizard" hidden="false" id="e031-d2c8-7d6b-078d" targetId="8772-9842-a42b-36b5" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="9a44-db7d-2884-b7af" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="e13c-1dce-37b9-30b0" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lizapedes" hidden="false" id="4f81-320e-7f49-9980" targetId="0605-ff12-ebf1-54b2" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="326b-065b-2cd2-0ccb" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="f620-7d39-26fa-0e82" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Lizard Beast" hidden="false" id="45a4-7fe5-ee0a-06e9" targetId="b3f1-4cc8-8d15-92ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="bc7b-9c80-84b9-3afd" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="7868-ea0e-16bf-2c74" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Needle Beast" hidden="false" id="c28f-679d-76de-c605" targetId="b68f-6535-ef9d-b264" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="2620-5879-5186-de82" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="870f-cd19-562a-ddff" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Swarm of Beetlions" hidden="false" id="9af4-3cb4-bb62-4685" targetId="463a-265c-8a0e-7c39" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="default-category" id="1b82-f7d6-3f38-87b2" primary="true" name="Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="d2d6-6a0c-d9d3-5110" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink import="true" name="Two-Headed Beast" hidden="false" id="11a1-f08c-6d74-56d2" targetId="c645-5c3b-5890-4888" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink targetId="cb2a-dcde-daa4-844d" id="ed36-2469-a4ae-ffd4" primary="true" name="Non-Infantry"/>
+        <categoryLink targetId="f309-e3c4-1038-297c" id="313e-4fcf-1ece-97bf" primary="false" name="Fighter"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <rules>
+    <rule name="Instinctual Adaptations" id="a5f5-5c4f-2219-c5cb" hidden="false">
+      <description>Each round, during the Prep Phase (step 5), choose one of the following effects for the round.
+- All your non-infantry Fighters improve their Defense Rank by 1. Decrease your PEP by 2.
+- All your non-infantry Fighters gain the Fast Claim ability. All of your non-infantry Fighters gain the Conspicuous ability.
+- All your Fighters gain the Evasive Maneuvers ability. Reduce your Charge keywords by 1 (minimum 0).
+- All your Fighters gain Repair 1.</description>
+    </rule>
+    <rule name="Innate Vigor" id="b2a7-f770-79b5-b331" hidden="false">
+      <description>When you spend your last energy, roll a d10. Gain energy equal to the result (once per round).</description>
+    </rule>
+    <rule name="Frenzy" id="8f76-2e92-90c9-5af5" hidden="false">
+      <description>When a friendly fighter destroys an enemy fighter, you may spend an energy to remove an activation marker from that friendly fighter.</description>
+    </rule>
+  </rules>
+</catalogue>

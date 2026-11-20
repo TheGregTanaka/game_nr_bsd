@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="28" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem id="sys-faa2-1e7e-e47d-94d8" name="MyGame" battleScribeVersion="2.03" revision="29" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
   <categoryEntries>
     <categoryEntry name="Infantry" id="default-category"/>
     <categoryEntry name="Non-Infantry" id="cb2a-dcde-daa4-844d" hidden="false"/>
@@ -992,6 +992,257 @@
     <profile name="Mini-Bombs" typeId="fab4-73e7-0aea-16c7" typeName="Ability" hidden="false" id="4733-d5c2-3657-d949">
       <characteristics>
         <characteristic name="Description" typeId="3fef-df7c-7ca9-43cf">[Fast, Cost 1-2]: After a Fighter with this ability takes a combat action, as a fast action they may make a Melee or Ranged attack with the Mini-Bombs profile (this does not require the Multiattack keyword). It is resolved as if it were a normal attack, however, only costs 1 or 2 energy. This attack profile may only be used as part of this fast action.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Energy) - Standard" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="21d5-e71a-4abe-fa9c">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">2</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">0</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">3</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">When you select this attack, set the target’s base Evasion attribute to 0 until the end of this activation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Energy) - High Power" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="c989-07c5-4503-d6f7">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">4</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">0</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">3</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">When you select this attack, set the target’s base Evasion attribute to 0 until the end of this activation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Energy) - Standard" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="4739-d956-116e-962f">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">2</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">3</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">When you select this attack, set the target’s base Evasion attribute to 0 until the end of this activation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Energy) - High Power" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="fb7f-e47a-258a-8a31">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">4</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">3</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">When you select this attack, set the target’s base Evasion attribute to 0 until the end of this activation.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Claws - Standard" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="136c-938d-33bd-d840">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">3+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">4</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Charge 3</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Claws - High Power" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="f230-de43-d801-5985">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">3+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">6</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Charge 3</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Needle Shot" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="8055-0bc8-f5dd-9458">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">12&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">7+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">6</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">3</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">3</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Anti-Evade 1</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Scream) - Standard" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="3d7a-0a68-eca5-4e7d">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">3</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">0</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce, Anti-Evade 2</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">If an enemy takes damage from this attack, this Fighter gains +1 Evasion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Scream) - High Power" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="9cb6-8c82-aa62-5a49">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">5</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">0</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce, Anti-Evade 2</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">If an enemy takes damage from this attack, this Fighter gains +1 Evasion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Scream) - Standard" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="d1cd-f595-df18-2495">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">3</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce, Anti-Evade 2</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, this Fighter gains +1 Evasion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Scream) - High Power" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="2eb5-8adb-3415-debc">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">5</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">0</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce, Anti-Evade 2</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, this Fighter gains +1 Evasion.</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Ice) - Standard" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="99c6-574b-087f-3dc5">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">12&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">3+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">4</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, reduce their speed by 0.5” (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Ice) - High Power" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="c398-f07e-282a-b22e">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">12&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">3+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">6</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">2</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, reduce their speed by 0.5” (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Fire) - Standard" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="90fe-f971-2839-caf0">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">6</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce, Anti-Evade 3</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">If an enemy takes damage from this attack, they gain -1 Evasion (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Fire) - High Power" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="a7d1-8365-4034-d8ef">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">10</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Adaptive Pierce, Anti-Evade 3</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814">If an enemy takes damage from this attack, they gain -1 Evasion (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Fire) - Standard" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="db05-b9b4-dd53-f63b">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">5&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">6</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce, Anti-Evade 3</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, they gain -1 Evasion (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Breath Weapon (Fire) - High Power" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="1b4a-7cb9-6109-52c6">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">5&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">10</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Adaptive Pierce, Anti-Evade 3</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8">If an enemy takes damage from this attack, they gain -1 Evasion (until the end of their next activation).</characteristic>
+      </characteristics>
+    </profile>
+    <profile name="Thrown Debris" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="cef6-2fa6-61a3-c43d">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">9</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Charge 0</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Thrown Debris" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="4f53-d79b-3b05-d8eb">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">7&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">4+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">9</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">1</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack, Charge 0</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
+      </characteristics>
+    </profile>
+    <profile name="Club-like Fists" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="cb7c-5c67-0e31-b4c4">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">3</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">1</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">4</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack, Charge 1</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Venom Spit" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="9d4e-8b8a-2eee-2f1f">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">2+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">2</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">4</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Venom Spit" typeId="9fc8-80c1-4272-da85" typeName="Ranged Attack" hidden="false" id="2d4e-bdd2-90bc-a056">
+      <characteristics>
+        <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
+        <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">2+</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">2</characteristic>
+        <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">4</characteristic>
+        <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
+        <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack</characteristic>
+        <characteristic name="Special" typeId="5230-acd0-bcf8-76a8"/>
+      </characteristics>
+    </profile>
+    <profile name="Gnawing - Standard" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="fc2e-99e4-d321-2a1f">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">4</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">3</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 2</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
+      </characteristics>
+    </profile>
+    <profile name="Gnawing - High Power" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="5138-9a91-eb45-303b">
+      <characteristics>
+        <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">4+</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">8</characteristic>
+        <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">3</characteristic>
+        <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">2</characteristic>
+        <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Charge 2</characteristic>
+        <characteristic name="Special" typeId="3f92-fbae-a46e-e814"/>
       </characteristics>
     </profile>
   </sharedProfiles>
