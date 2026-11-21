@@ -1207,7 +1207,7 @@
     <profile name="Venom Spit" typeId="005e-4072-0313-44dc" typeName="Melee Attack" hidden="false" id="9d4e-8b8a-2eee-2f1f">
       <characteristics>
         <characteristic name="Attack Rank" typeId="c0ba-231e-83aa-bc25">2+</characteristic>
-        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">2</characteristic>
+        <characteristic name="Shots" typeId="3f1c-f37d-da24-5cb5">4</characteristic>
         <characteristic name="Pierce" typeId="c64b-0aa6-2366-9f01">4</characteristic>
         <characteristic name="Damage" typeId="0238-6a5f-b1d1-aeee">1</characteristic>
         <characteristic name="Keywords" typeId="d907-aec7-3314-db1c">Multiattack</characteristic>
@@ -1218,7 +1218,7 @@
       <characteristics>
         <characteristic name="Range" typeId="a6ad-e685-b5e1-e934">6&quot;</characteristic>
         <characteristic name="Attack Rank" typeId="808e-dd98-786f-dd91">2+</characteristic>
-        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">2</characteristic>
+        <characteristic name="Shots" typeId="9a69-7a7b-f4ef-2f54">4</characteristic>
         <characteristic name="Pierce" typeId="0bd9-2800-9c43-74f0">4</characteristic>
         <characteristic name="Damage" typeId="6d46-9a3d-b123-1b78">1</characteristic>
         <characteristic name="Keywords" typeId="a96e-7ab8-ecf7-c540">Multiattack</characteristic>

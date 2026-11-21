@@ -363,7 +363,7 @@
           </modifiers>
           <characteristics>
             <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
-            <characteristic name="HP" typeId="f257-8c1b-5311-7a09">14</characteristic>
+            <characteristic name="HP" typeId="f257-8c1b-5311-7a09">12</characteristic>
             <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6</characteristic>
             <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">6+</characteristic>
             <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
@@ -411,7 +411,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Sock Bot" hidden="false" id="18f6-9220-1e0c-564b">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
       </costs>
       <categoryLinks>
@@ -439,7 +439,7 @@
     </selectionEntry>
     <selectionEntry type="unit" import="true" name="Machine Gun Bot" hidden="false" id="8bce-8798-3d4c-67f9">
       <costs>
-        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="14"/>
+        <cost name="Cost" typeId="43fa-d16d-76dd-49fc" value="13"/>
         <cost name="Energy" typeId="cd96-6462-1dd8-6a53" value="6"/>
       </costs>
       <categoryLinks>
@@ -830,7 +830,7 @@
     <profile name="Sock Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="f902-c572-3b65-41f0">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">15</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">13</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
@@ -841,7 +841,7 @@
     <profile name="Machine Gun Bot" typeId="a347-e620-83ec-5474" typeName="Fighter" hidden="false" id="fe90-ce50-c0ac-df01">
       <characteristics>
         <characteristic name="Base Size" typeId="6cef-af56-9c4e-a864">40mm</characteristic>
-        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">15</characteristic>
+        <characteristic name="HP" typeId="f257-8c1b-5311-7a09">12</characteristic>
         <characteristic name="EP" typeId="1a52-8b4d-5659-2724">6 [I]</characteristic>
         <characteristic name="Defense Rank" typeId="f034-bd70-8978-9bef">5+</characteristic>
         <characteristic name="Evasion" typeId="3c24-d874-15d8-df30">1</characteristic>
